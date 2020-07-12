@@ -11,7 +11,7 @@ class Home extends React.Component {
         <h1 className='header-title shows-list-title'>
           Upcoming Shows?
         </h1>
-        <p>COVID-19 is very real. Wear a <Link to='/contact' className='link pulse'>mask</Link>.</p>
+        <p>COVID-19 is very real. Wear a <Link to='/mask' className='link pulse'>mask</Link>.</p>
         {/*
         <div>
 

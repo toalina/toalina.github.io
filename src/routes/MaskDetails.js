@@ -12,13 +12,13 @@ class MaskDetails extends React.Component {
             Hello! This face mask features a pocket for inserting a filter, removable nose and chin wires, and adjustable ear loop straps (Remember those cool hemp necklaces in the 90s?) or a tie on cotton cord.
           </p>
           <p>
-            After receiving the mask, please hand wash and iron at home before inserting nose and/or chin wire(s) for use. Using the mask with a filter will greatly increase the filtration efficiency of the mask. See How to Wash the Mask and Filter Recommendations sections for more details.
+            After receiving the mask, please hand wash and iron at home before inserting nose and/or chin wire(s) for use. Using the mask with a filter will greatly increase the filtration efficiency of the mask. See <Link to='#use' className='link'>How to Wash the Mask</Link> and <Link to='#filters' className='link'>Filter Recommendations</Link> sections for more details.
           </p>
           <p>Let me know if you have any questions. Stay safe and healthy!</p>
           <p>Alina</p>
 
         </div>
-        <ul>
+        <ul id='mask-menu'>
           <li>Jump to:</li>
           <li>
             <Link to='#features' className='link'>Mask Features</Link>
@@ -54,7 +54,7 @@ class MaskDetails extends React.Component {
           </div>
           <div className='mask-details-section-wrapper' id='materials'>
             <h2>Materials</h2>
-            <p>For reference if you need to replace.</p>
+            <p><em>For reference if you need to replace.</em></p>
 
             <h4>Fabric</h4>
             <ul>
@@ -86,7 +86,7 @@ class MaskDetails extends React.Component {
               <p><em>I like the opening in the middle because it is easier to reach all sides of the filter pocket to ensure the filter is covering nose and mouth areas.</em></p>
               <p>The most important point is to make sure the filter is inside the mask and covers the nose and mouth areas of the mask. </p>
               <p>Insert the filter from the opening slit. The side with the opening is to be worn touching your face. </p>
-              <p>See Filter Recommendations section below.</p>
+              <p>See <Link to='#filters' className='link'>Filter Recommendations</Link> section below.</p>
             </div>
 
           </div>
