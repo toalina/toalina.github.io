@@ -1,9 +1,26 @@
 /***
   MASK Details Styles
 ***/
-
 .mask-details {
   margin-bottom: 2rem;
+}
+
+.mask-image {
+  margin-top: 1em;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.mask-image > img {
+  width: 400px;
+}
+
+.mask-image > p {
+  font-size: 14px;
 }
 
 .mask-details-intro {
@@ -40,7 +57,7 @@
   margin-left: 20px;
 }
 
-.mask-details-section-wrapper p,
+.mask-details-text-wrapper p,
 .mask-details-section-wrapper li {
   /*font-size: 17px;*/
   letter-spacing: 0.01em;

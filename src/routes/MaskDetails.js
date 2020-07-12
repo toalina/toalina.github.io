@@ -8,6 +8,10 @@ class MaskDetails extends React.Component {
         <h1 className='header-title'>Alinagami Mask</h1>
         <h1 className='header-title'>Instructions for Wear and Care</h1>
         <div className='mask-details-intro'>
+          <div className='mask-image'>
+            <img src='../gray_dots_ties.jpg' alt='Gray dots mask with ties' />
+            <p>Mask With Ties</p>
+          </div>
           <p>
             Hello! This face mask features a pocket for inserting a filter, removable nose and chin wires, and adjustable ear loop straps (Remember those cool hemp necklaces in the 90s?) or a tie on cotton cord.
           </p>
@@ -33,14 +37,14 @@ class MaskDetails extends React.Component {
             <Link to='#wear' className='link'>How to Properly Wear Mask</Link>
           </li>
           <li>
-            <Link to='#use' className='link'>How to Wash the Mask</Link>
+            <Link to='#wash' className='link'>How to Wash the Mask</Link>
           </li>
           <li>
             <Link to='#filters' className='link'>Filter Recommendations</Link>
           </li>
         </ul>
         <section className='mask-section'>
-        <div>
+
           <div className='mask-details-section-wrapper' id='features'>
             <h2>Mask Features</h2>
             <ul>
@@ -82,6 +86,10 @@ class MaskDetails extends React.Component {
 
           <div className='mask-details-section-wrapper' id='use'>
             <h2>How to Insert Filter</h2>
+            <div className='mask-image'>
+              <img src='../mask_filter.jpg' alt='Mask opening for filter' />
+              <p>Mask Opening For Filter</p>
+            </div>
             <div className='mask-details-text-wrapper'>
               <p><em>I like the opening in the middle because it is easier to reach all sides of the filter pocket to ensure the filter is covering nose and mouth areas.</em></p>
               <p>The most important point is to make sure the filter is inside the mask and covers the nose and mouth areas of the mask. </p>
@@ -93,7 +101,11 @@ class MaskDetails extends React.Component {
           <div className='mask-details-section-wrapper' id='wear'>
 
             <h2>How to Properly Wear Mask</h2>
-              <div className='mask-details-text-wrapper'>
+            <div className='mask-image'>
+              <img src='../gray_dots_loops.jpg' alt='Mask with adjustable ear loops' />
+              <p>Mask With Adjustable Ear Loops</p>
+            </div>
+            <div className='mask-details-text-wrapper'>
               <p><em>I like to wear the mask with both nose and chin wires to create a tighter fit. However, you can also wear the mask without wires.</em></p>
               <h4>To wear without wires:</h4>
               <p>To create the shape and space for nose and mouth, fold the mask in half by lining up the short (ear) sides, pocket opening enclosed, iron a crease in the center where it goes from nose to chin.</p>
@@ -111,6 +123,10 @@ class MaskDetails extends React.Component {
 
           <div className='mask-details-section-wrapper' id='wash'>
             <h2>How to Wash the Mask</h2>
+            <div className='mask-image'>
+              <img src='../mask_wire.jpg' alt='Mask wire channel' />
+              <p>Mask Wire Channel</p>
+            </div>
             <div className='mask-details-text-wrapper'>
               <p><em>I like to hand wash because it doesn’t scrunch up as much as in the washing machine, and it’s less work to iron it out.</em></p>
               <h4>Steps:</h4>
@@ -151,7 +167,6 @@ class MaskDetails extends React.Component {
             </div>
 
           </div>
-        </div>
         </section>
 
       </div>
