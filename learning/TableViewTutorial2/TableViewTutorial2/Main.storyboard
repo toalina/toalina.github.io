@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F1713" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="bG1-yA-wrh">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--Main View-->
+        <scene sceneID="sLe-Sq-6QK">
+            <objects>
+                <viewController title="Main View" id="bG1-yA-wrh" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="EEf-Fi-saa"/>
+                        <viewControllerLayoutGuide type="bottom" id="JMr-aT-Hd5"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2VU-oQ-iW9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gJG-K1-Ng7" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="0.0" y="71" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Xf1-72-bvD" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="186" y="71" width="189" height="123"/>
+                                <color key="backgroundColor" white="0.59999999999999998" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bHe-J7-bfr" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="0.0" y="212" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XJu-Ju-FSj" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="5" y="343" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="NDd-4M-VrU" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="5" y="494" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" translatesAutoresizingMaskIntoConstraints="NO" id="WXV-UW-tFe">
+                                <rect key="frame" x="138" y="219" width="320" height="44"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="WXV-UW-tFe" id="aHy-us-ULZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ryj-QD-QQ2">
+                                <rect key="frame" x="272" y="292" width="62" height="43"/>
+                                <state key="normal" title="Next"/>
+                                <connections>
+                                    <segue destination="1Du-wj-kee" kind="show" identifier="SecondView" id="PNG-Kx-gtc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="667"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MCI-aH-0tp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="281.5" y="403.5"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="rGL-cO-STZ">
+            <objects>
+                <viewController id="1Du-wj-kee" customClass="SecondViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zE1-0v-MYo"/>
+                        <viewControllerLayoutGuide type="bottom" id="WNq-yw-00J"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UCC-9r-t2t">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" selectionStyle="default" indentationWidth="10" rowHeight="86" translatesAutoresizingMaskIntoConstraints="NO" id="cw9-Ww-GjI">
+                                <rect key="frame" x="20" y="97" width="338" height="86"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="cw9-Ww-GjI" id="lpV-cY-yxZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="338" height="86"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zEe-i9-55O" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="81" y="204" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="UFR-9c-tkr" userLabel="SliderView" customClass="SliderView">
+                                <rect key="frame" x="81" y="356" width="189" height="123"/>
+                                <color key="backgroundColor" red="0.92941176889999999" green="0.92941176889999999" blue="0.92941176889999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oKh-lM-Ef5" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="773.5" y="403.5"/>
+        </scene>
+    </scenes>
+</document>
