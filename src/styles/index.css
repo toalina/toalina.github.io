@@ -116,6 +116,13 @@ ul {
   color: tomato;
 }
 
+/***
+  ICON STYLE
+***/
+.icon-sew {
+  fill: red;
+}
+
 /*Text Fade In Effect*/
 .header-title {
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */

@@ -7,6 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - http://localhost:3000
 
 ### Work flow!
+- Delete `/build` folder from previous build before pushing to `master`
 - Branch off `master`
 - Develop on `feature` branch
 - npm run build
@@ -14,6 +15,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Open Pull Request to merge `feature` branch `/build` folder content into `master`
 - Git pull from `master`
 - Deploy from `master`
+
+*Do not pull from `master`!*
 
 *Master branch should only have static files!*
 
