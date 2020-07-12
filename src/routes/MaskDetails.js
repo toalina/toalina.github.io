@@ -34,7 +34,7 @@ class MaskDetails extends React.Component {
             <Link to='#use' className='link'>How to Insert Filter</Link>
           </li>
           <li>
-            <Link to='#wear' className='link'>How to Properly Wear Mask</Link>
+            <Link to='#wear' className='link'>How to Wear the Mask</Link>
           </li>
           <li>
             <Link to='#wash' className='link'>How to Wash the Mask</Link>
@@ -100,7 +100,7 @@ class MaskDetails extends React.Component {
           </div>
           <div className='mask-details-section-wrapper' id='wear'>
 
-            <h2>How to Properly Wear Mask</h2>
+            <h2>How to Wear the Mask</h2>
             <div className='mask-image'>
               <img src='../gray_dots_loops.jpg' alt='Mask with adjustable ear loops' />
               <p>Mask With Adjustable Ear Loops</p>
