@@ -1,0 +1,115 @@
+/***
+  MASK Details Styles
+***/
+
+.mask-details {
+  margin-bottom: 2rem;
+}
+
+.mask-details-intro {
+  margin: 3em 12em;
+  text-align: left;
+  font-size: 18px;
+}
+
+.mask-section {
+  margin-top: 2rem;
+  margin-left: 10rem;
+  text-align: left;
+}
+
+.mask-section h2 {
+  color: #9aabb9; /*nantucket*/
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.mask-details-section-wrapper {
+  max-width: 800px;
+  margin-bottom: 2.2em;
+}
+
+.mask-details-section-wrapper h4 {
+  margin-top: 0.5em;
+}
+
+.mask-details-text-wrapper {
+  margin-left: 20px;
+}
+
+.mask-details-section-wrapper p,
+.mask-details-section-wrapper li {
+  /*font-size: 17px;*/
+  letter-spacing: 0.01em;
+  font-weight: 400;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  text-align: left;
+}
+
+/*Small Screen*/
+@media screen and (max-width: 863px) {
+  .mask-details-intro {
+    margin: 1em;
+  }
+  .mask-section {
+    margin-left: 2rem;
+  }
+  .mask-details-text-wrapper {
+    /*margin-left: 0px;*/
+    margin: 0.5em;
+  }
+  .mask-details-section-wrapper p,
+  .mask-details-section-wrapper li {
+    letter-spacing: 0em;
+  }
+
+
+}
+
+.mask-link {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+.video-container {
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height:0;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .video-container {
+    margin: 0 3rem;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .video-container {
+    margin: 0 6rem;
+  }
+}
+
+@media (min-width: 1281px) {
+  .video-container {
+    margin: 0 9rem;
+  }
+}
+
+
+
