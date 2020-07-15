@@ -154,13 +154,22 @@ class MaskDetails extends React.Component {
               <p>
               Info adopted from <a href="https://diymask.site/" target="_blank" rel="noopener noreferrer" class="mask-link">HK Mask</a>.
               <br/>
-              Tested in Feb 2020.
+              Visit <a href="https://diymask.site/" target="_blank" rel="noopener noreferrer" class="mask-link">[HK Mask]</a> for more details.
               </p>
-              <p>
-              * Higher filtration efficiency = Better filtration effect
-                <br/>
-              * Higher PD flow rate = More difficult to breathe
-              </p>
+              <ul>
+                <li>
+                  * Higher filtration efficiency = Better filtration effect
+                </li>
+                <li>
+                  * Higher PD flow rate = More difficult to breathe
+                </li>
+                <li>
+                  * Tissue paper = Tempo brand tissue paper (thicker than Kleenex brand)
+                </li>
+                <li>
+                  * Kitchen paper = Paper towel
+                </li>
+              </ul>
 
               <img src='../hkmask_filter1.jpg' alt='HK Mask Filter 1' />
               <img src='../hkmask_filter2.jpg' alt='HK Mask Filter 2' />
