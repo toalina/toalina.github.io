@@ -11,6 +11,7 @@ import '../styles/contact.css'
 import '../styles/tech.css'
 import '../styles/etc.css'
 import '../styles/mask.css'
+import '../styles/shop.css'
 import Main from './Main'
 // import ScrollToTop from './ScrollToTop'
 
@@ -35,6 +36,7 @@ const App = () => (
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/media'>Media</Link></li>
               <li><Link to='/mask'>Mask</Link></li>
+              <li><Link to='/shop'>Shop</Link></li>
               <li>
                 <Link to='/etc'>Etc.</Link>
                 {/*
