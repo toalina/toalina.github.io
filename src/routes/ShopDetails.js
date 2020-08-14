@@ -130,6 +130,7 @@ class ShopDetails extends React.Component {
             </div>
           </div>
         </section>
+
       </div>
     )
   }
