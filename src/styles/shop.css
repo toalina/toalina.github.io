@@ -75,7 +75,7 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .gallery-image {
@@ -110,6 +110,10 @@
   /*counter-increment: carousel-cell;*/
 }
 
+.flickity-page-dots {
+  bottom: 0px;
+}
+
 /*Small Screen*/
 @media screen and (max-width: 863px) {
   .shop-details-intro {
@@ -131,12 +135,12 @@
   .shop-details-section-wrapper h4 {
     margin-top: 1.5em;
   }
+
+  .carousel-cell {
+    max-height: 200px;
+  }
 }
 
-@media screen and ( min-width: 768px ) {
-  /* half-width cells for larger devices */
-  .carousel-cell { width: 50%; }
-}
 
 
 
