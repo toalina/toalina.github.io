@@ -20,6 +20,7 @@ class MaskDetails extends React.Component {
           </p>
           <p>Let me know if you have any questions. Stay safe and healthy!</p>
           <p>Alina</p>
+          <p>P.S. Are you looking to buy a mask? <Link to='/shop' className='mask-link'>[Over here!]</Link></p>
 
         </div>
         <ul id='mask-menu'>
