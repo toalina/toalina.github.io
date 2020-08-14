@@ -21,7 +21,7 @@ width: 500px;
 
 .shop-section {
   margin-top: 2em;
-  margin-left: 10em;
+  margin-left: 8em;
   margin-right: 2em;
   text-align: left;
 }
@@ -45,8 +45,7 @@ width: 500px;
   letter-spacing: 0.1em;
 }
 
-
-
+/*Body text*/
 .shop-details-text-wrapper {
   margin-left: 20px;
 }
@@ -59,9 +58,12 @@ width: 500px;
   line-height: 1.6em;
   text-align: left;
 }
-
 .shop-details-section-wrapper p {
   font-size: 16px;
+}
+
+.how-to-order-text-wrapper p {
+  font-size: 18px;
 }
 
 /*Styles for Images*/
@@ -74,11 +76,9 @@ width: 500px;
   justify-content: center;
   align-items: center;
 }
-
 .shop-image > img {
   width: 400px;
 }
-
 .shop-image > p {
   font-size: 18px;
 }
@@ -88,17 +88,17 @@ width: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
-
-.feature-image, .gallery-image {
+.feature-image,
+.gallery-image {
   margin-right: 0.3em;
   max-width: 375px;
 }
-
+.feature-row-wrapper p,
 .gallery-row-wrapper p {
   font-size: 18px;
 }
-
 
 .shop-link {
   font-family: 'Karla', sans-serif;
@@ -107,15 +107,12 @@ width: 500px;
   font-size: 0.8em;
   text-transform: uppercase;
 }
-
 .shop-details-list {
   list-style: disc;
 }
-
 #shop-menu {
   margin-left: 0;
 }
-
 
 /*Small Screen*/
 @media screen and (max-width: 863px) {
@@ -135,8 +132,8 @@ width: 500px;
     letter-spacing: 0em;
   }
 
-  .shop-details-section-wrapper h4 {
+  /*.shop-details-section-wrapper h4 {
     margin-top: 1.5em;
-  }
+  }*/
 
 }

@@ -31,8 +31,8 @@ class ShopDetails extends React.Component {
             <div className='mask-prices'>
               <h4>$17 / mask</h4>
               <h5>+ $3 by mail (Support USPS) or by delivery (Seattle area only)</h5>
-              <h5>+ $0 for pick up (Capitol Hill neighborhood)</h5>
-              <h6>Venmo and PayPal accepted</h6>
+              <h5>+ $0 for pick up (Seattle Capitol Hill neighborhood)</h5>
+              <h6>Venmo and PayPal accepted.</h6>
             </div>
             <p>All masks are final sale and may not be returned or exchanged.</p>
           </div>
@@ -80,56 +80,53 @@ class ShopDetails extends React.Component {
 
           <div className='shop-details-section-wrapper' id='how-to-order'>
             <h2>How to Order</h2>
-            <h5>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</h5>
+            <div className='how-to-order-text-wrapper'>
+              <p>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</p>
 
-            <ul className='shop-details-list'>
-              <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
-              <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
-              <li><strong>Delivery Method</strong>: Mail (include address) // Delivery // Pick Up</li>
-              <li><strong>Number of Mask(s)</strong></li>
-            </ul>
+              <ul className='shop-details-list'>
+                <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
+                <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
+                <li><strong>Delivery Method</strong>: Mail (include address) // Delivery // Pick Up</li>
+                <li><strong>Number of Mask(s)</strong></li>
+              </ul>
 
-            <h5>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</h5>
-
+              <p>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</p>
+            </div>
           </div>
 
           <div className='shop-details-section-wrapper' id='gallery'>
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                Currently available mask fabrics. Mask availability may vary as this section is not updated immediately.
+                <strong>These are currently available mask fabrics. [08-14-2020]</strong>
                 <br/>
-                Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to contact Alina to place order. Thank you!
+                Mask availability may vary as this section is not updated immediately.
+                <br/>
+                Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to place an order. Thank you!
               </p>
             </div>
 
             <div className="gallery-row-wrapper">
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/world_travel_ties.jpg' alt='World travel mask with ties' />
                 <p>World Travel</p>
               </div>
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/world_travel_filter.jpg' alt='World travel mask filter' />
                 <p>World Travel</p>
               </div>
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
                 <p>Mint Gingham</p>
               </div>
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/gray_squiggly.jpg' alt='Gray squiggly mask' />
                 <p>Gray Squiggly</p>
               </div>
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
                 <p>80s Summer</p>
               </div>
-
               <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops_folded.jpg' alt='80s summer with loops folded' />
                 <p>80s Summer</p>
@@ -137,7 +134,6 @@ class ShopDetails extends React.Component {
             </div>
           </div>
         </section>
-
       </div>
     )
   }
