@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="theme-color" content="#000000">
@@ -25,6 +25,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation-essential/6.2.2/css/foundation.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation-essential/6.2.2/css/foundation.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation-essential/6.2.2/css/app.css">
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
     <!-- <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css"> -->
     <!--
@@ -85,10 +86,10 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.1/what-input.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.1/what-input.min.js"></script>
     <script src="https://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.5.3/js/foundation.js"></script> -->
     <script src="js/app.js"></script>
     <script>
-
       $(function() {
        $(document).foundation();
        $('body').removeClass('fade-out');
@@ -97,9 +98,12 @@
           $hamburger.toggleClass("is-active");
           // Do something else, like open/close menu
         });
+        $('.carousel').flickity({
+          // options
+          cellAlign: 'center',
+          wrapAround: true
+        });
       });
-
-
     </script>
     <!--
       This HTML file is a template.

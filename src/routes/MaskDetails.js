@@ -9,7 +9,7 @@ class MaskDetails extends React.Component {
         <h1 className='header-title'>Instructions for Wear and Care</h1>
         <div className='mask-details-intro'>
           <div className='mask-image'>
-            <img src='../gray_dots_ties.jpg' alt='Gray dots mask with ties' />
+            <img src='../masks/gray_dots_ties_knot.jpg' alt='Gray dots mask with ties' />
             <p>Mask With Ties</p>
           </div>
           <p>
@@ -43,6 +43,7 @@ class MaskDetails extends React.Component {
             <Link to='#filters' className='link'>Filter Recommendations</Link>
           </li>
         </ul>
+
         <section className='mask-section'>
 
           <div className='mask-details-section-wrapper' id='features'>
@@ -87,7 +88,7 @@ class MaskDetails extends React.Component {
           <div className='mask-details-section-wrapper' id='use'>
             <h2>How to Insert Filter</h2>
             <div className='mask-image'>
-              <img src='../mask_filter.jpg' alt='Mask opening for filter' />
+              <img src='../masks/mask_filter.jpg' alt='Mask opening for filter' />
               <p>Mask Opening For Filter</p>
             </div>
             <div className='mask-details-text-wrapper'>
@@ -102,7 +103,7 @@ class MaskDetails extends React.Component {
 
             <h2>How to Wear the Mask</h2>
             <div className='mask-image'>
-              <img src='../gray_dots_loops.jpg' alt='Mask with adjustable ear loops' />
+              <img src='../masks/gray_dots_loops.jpg' alt='Mask with adjustable ear loops' />
               <p>Mask With Adjustable Ear Loops</p>
             </div>
             <div className='mask-details-text-wrapper'>
@@ -124,7 +125,7 @@ class MaskDetails extends React.Component {
           <div className='mask-details-section-wrapper' id='wash'>
             <h2>How to Wash the Mask</h2>
             <div className='mask-image'>
-              <img src='../mask_wire.jpg' alt='Mask wire channel' />
+              <img src='../masks/mask_wire.jpg' alt='Mask wire channel' />
               <p>Mask Wire Channel</p>
             </div>
             <div className='mask-details-text-wrapper'>
@@ -152,7 +153,7 @@ class MaskDetails extends React.Component {
             <h2>Filter Recommendations</h2>
             <div className='mask-details-text-wrapper'>
               <p>
-              Info adopted from <a href="https://diymask.site/" target="_blank" rel="noopener noreferrer" class="mask-link">HK Mask</a>.
+              Info adopted from <a href="https://diymask.site/" target="_blank" rel="noopener noreferrer" class="mask-link">[HK Mask]</a>.
               <br/>
               Visit <a href="https://diymask.site/" target="_blank" rel="noopener noreferrer" class="mask-link">[HK Mask]</a> for more details.
               </p>
@@ -171,8 +172,8 @@ class MaskDetails extends React.Component {
                 </li>
               </ul>
 
-              <img src='../hkmask_filter1.jpg' alt='HK Mask Filter 1' />
-              <img src='../hkmask_filter2.jpg' alt='HK Mask Filter 2' />
+              <img src='../masks/hkmask_filter1.jpg' alt='HK Mask Filter 1' />
+              <img src='../masks/hkmask_filter2.jpg' alt='HK Mask Filter 2' />
             </div>
 
           </div>

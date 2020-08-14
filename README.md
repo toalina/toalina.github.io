@@ -16,7 +16,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Git pull from `master`
 - Deploy from `master`
 
-*Do not pull from `master`!*
+*!!!DO NOT PULL from `master`!!!*
 
 *Master branch should only have static files!*
 
