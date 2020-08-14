@@ -38,27 +38,31 @@ class ShopDetails extends React.Component {
           </div>
 
           <div className='shop-details-section-wrapper' id='features'>
-          <h2>Mask Features</h2>
-            <div class="carousel js-flickity">
-              <div class="carousel-cell">
+            <h2>Mask Features</h2>
+            <div class="feature-row-wrapper">
+              <div class="shop-image feature-image">
                 <img src='../masks/gray_dots_ties.jpg' alt='Gray dots mask with ties' />
+                <p>Mask with ties</p>
               </div>
-              <div class="carousel-cell">
+              <div class="shop-image feature-image">
                 <img src='../masks/gray_dots_ties_inside.jpg' alt='Gray dots mask with ties inside' />
+                <p>Mask with ties inside</p>
               </div>
-              <div class="carousel-cell">
+              <div class="shop-image feature-image">
                 <img src='../masks/gray_dots_filter.jpg' alt='Gray dots mask filter opening' />
+                <p>Filter opening</p>
               </div>
-              <div class="carousel-cell">
+              <div class="shop-image feature-image">
                 <img src='../masks/gray_dots_loops.jpg' alt='Gray dots mask with ear loops' />
+                <p>Mask with ear loops</p>
               </div>
-              <div class="carousel-cell">
+              <div class="shop-image feature-image">
                 <img src='../masks/gray_dots_loops_closeup.jpg' alt='Gray dots mask with loops close up' />
+                <p>Adjustable ear loops</p>
               </div>
             </div>
 
             <h6>See <Link to='#gallery' className='link'>[Gallery]</Link> for available mask fabrics.</h6>
-
 
             <ul className='shop-details-list'>
               <li>Reusable, non-medical face mask.</li>
@@ -79,10 +83,10 @@ class ShopDetails extends React.Component {
             <h5>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</h5>
 
             <ul className='shop-details-list'>
-              <li>Fabric Name: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
-              <li>Wear Preference: Ear Loops // Ties</li>
-              <li>Delivery Method: Mail // Delivery // Pick Up</li>
-              <li>Number of Mask(s)</li>
+              <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
+              <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
+              <li><strong>Delivery Method</strong>: Mail (include address) // Delivery // Pick Up</li>
+              <li><strong>Number of Mask(s)</strong></li>
             </ul>
 
             <h5>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</h5>
@@ -91,11 +95,14 @@ class ShopDetails extends React.Component {
 
           <div className='shop-details-section-wrapper' id='gallery'>
             <h2>Gallery</h2>
-            <p>
-              Currently available mask fabrics. Mask availability may vary as this section is not updated immediately.
-              <br/>
-              Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to contact Alina to place order. Thank you!
-            </p>
+            <div className="shop-details-text-wrapper">
+              <p>
+                Currently available mask fabrics. Mask availability may vary as this section is not updated immediately.
+                <br/>
+                Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to contact Alina to place order. Thank you!
+              </p>
+            </div>
+
             <div className="gallery-row-wrapper">
 
               <div className='shop-image gallery-image'>
