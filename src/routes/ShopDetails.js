@@ -31,8 +31,8 @@ class ShopDetails extends React.Component {
 
             <h4>$17 / mask</h4>
             <h5>+ $3 by mail (Support USPS) or by delivery (Seattle area only)</h5>
-            <h5>+ $0 for pick up (Capitol Hill neighborhood).</h5>
-            <h6>Venmo and PayPal accepted.</h6>
+            <h5>+ $0 for pick up (Capitol Hill neighborhood)</h5>
+            <h6>Venmo and PayPal accepted</h6>
 
             <p>All masks are final sale and may not be returned or exchanged.</p>
 
@@ -64,14 +64,14 @@ class ShopDetails extends React.Component {
               <li>Adjustable ear loops or tie on cords.</li>
               <li>Removable nose and chin wires.</li>
               <li>Machine washable.</li>
-              <li>Instructions for wear and care and filter recommendations.</li>
+              <li><Link to='/mask' className='shop-link'>[Instructions]</Link> for wear and care and filter recommendations.</li>
               <li>Eyeglasses and somewhat yawn friendly. (Yes, I tested yawning, enough space for a 50% yawn. If you're yawning at 100%, you should probably be at home.)</li>
             </ul>
           </div>
 
           <div className='shop-details-section-wrapper' id='how-to-order'>
             <h2>How to Order</h2>
-            <h5>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank">alina.to@gmail.com</a> with the following info:</h5>
+            <h5>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer">alina.to@gmail.com</a> with the following info:</h5>
 
             <ul className='shop-details-list'>
               <li>Fabric Name: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
@@ -88,11 +88,16 @@ class ShopDetails extends React.Component {
               <br/>
               Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to contact Alina to place order. Thank you!
             </p>
-
+>
             <div className="gallery-row-wrapper">
 
               <div className='shop-image gallery-image'>
                 <img src='../masks/world_travel_ties.jpg' alt='World travel mask with ties' />
+                <p>World Travel</p>
+              </div>
+
+              <div className='shop-image gallery-image'>
+                <img src='../masks/world_travel_filter.jpg' alt='World travel mask filter' />
                 <p>World Travel</p>
               </div>
 
@@ -103,6 +108,11 @@ class ShopDetails extends React.Component {
 
               <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
+                <p>80s Summer</p>
+              </div>
+
+              <div className='shop-image gallery-image'>
+                <img src='../masks/80s_summer_loops_folded.jpg' alt='80s summer with loops folded' />
                 <p>80s Summer</p>
               </div>
 
