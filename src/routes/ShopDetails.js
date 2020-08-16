@@ -124,7 +124,7 @@ class ShopDetails extends React.Component {
                 <p>Gray Squiggly</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/80s_summer_loops.JPG' alt='80s summer with loops' />
+                <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
                 <p>80s Summer</p>
               </div>
               <div className='shop-image gallery-image'>
