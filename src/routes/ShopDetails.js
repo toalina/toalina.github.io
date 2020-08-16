@@ -32,7 +32,7 @@ class ShopDetails extends React.Component {
               <h4>$17 / mask</h4>
               <h5>+ $3 by mail (Support USPS) or by delivery (Seattle area only)</h5>
               <h5>+ $0 for pick up (Seattle Capitol Hill neighborhood)</h5>
-              <h6>Venmo and PayPal accepted.</h6>
+              <h6>Venmo and PayPal accepted. (+ 2% for PayPal processing fee)</h6>
             </div>
             <p>All masks are final sale and may not be returned or exchanged.</p>
           </div>
