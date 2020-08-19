@@ -30,7 +30,8 @@ class ShopDetails extends React.Component {
             <h2>Alinagami Mask</h2>
             <div className='mask-prices'>
               <h4>$17 / mask</h4>
-              <h5>+ $3 by mail (Support USPS) or by delivery (Seattle area only)</h5>
+              <h5>+ $3 or more by mail depending on package size (Support USPS)</h5>
+              <h5>+ $3 by delivery (Seattle area only)</h5>
               <h5>+ $0 for pick up (Seattle Capitol Hill neighborhood)</h5>
               <h6>Venmo and PayPal accepted. (+ 2% for PayPal processing fee)</h6>
             </div>
@@ -87,6 +88,7 @@ class ShopDetails extends React.Component {
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
                 <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
                 <li><strong>Delivery Method</strong>: Mail (include address) // Delivery // Pick Up</li>
+                <li><strong>Address</strong>: If by Mail or Delivery</li>
                 <li><strong>Number of Mask(s)</strong></li>
               </ul>
 
@@ -118,10 +120,6 @@ class ShopDetails extends React.Component {
               <div className='shop-image gallery-image'>
                 <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
                 <p>Mint Gingham</p>
-              </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/gray_squiggly.jpg' alt='Gray squiggly mask' />
-                <p>Gray Squiggly</p>
               </div>
               <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
