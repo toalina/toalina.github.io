@@ -87,7 +87,7 @@ class ShopDetails extends React.Component {
               <ul className='shop-details-list'>
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
                 <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
-                <li><strong>Delivery Method</strong>: Mail (include address) // Delivery // Pick Up</li>
+                <li><strong>Delivery Method</strong>: Mail // Delivery // Pick Up</li>
                 <li><strong>Address</strong>: If by Mail or Delivery</li>
                 <li><strong>Number of Mask(s)</strong></li>
               </ul>
