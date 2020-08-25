@@ -69,6 +69,7 @@ class ShopDetails extends React.Component {
               <li>Reusable, non-medical face mask.</li>
               <li>100% cotton, washed and pressed.</li>
               <li>High quality and precise craftsmanship.</li>
+              <li>Thoughtful design.</li>
               <li>Extra wide protective coverage.</li>
               <li>Easy access pocket for filter.</li>
               <li>Double-layered construction.</li>
