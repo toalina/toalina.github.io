@@ -29,11 +29,11 @@ class ShopDetails extends React.Component {
           <div className='shop-details-section-wrapper' id='intro'>
             <h2>Alinagami Mask</h2>
             <div className='mask-prices'>
-              <h4>$17 / mask</h4>
+              <h4>$20 / mask</h4>
               <h5>+ $3 or more by mail depending on package size (Support USPS)</h5>
               <h5>+ $3 by delivery (Seattle area only)</h5>
               <h5>+ $0 for pick up (Seattle Capitol Hill neighborhood)</h5>
-              <h6>Venmo and PayPal accepted. (+ 2% for PayPal processing fee)</h6>
+              <h6>Venmo and PayPal ("Friends and Family" Payment Type!) accepted. </h6>
             </div>
             <p>All masks are final sale and may not be returned or exchanged.</p>
           </div>
@@ -68,6 +68,8 @@ class ShopDetails extends React.Component {
             <ul className='shop-details-list'>
               <li>Reusable, non-medical face mask.</li>
               <li>100% cotton, washed and pressed.</li>
+              <li>High quality and precise craftsmanship.</li>
+              <li>Extra wide protective coverage.</li>
               <li>Easy access pocket for filter.</li>
               <li>Double-layered construction.</li>
               <li>Box shape for comfort between nose and mouth.</li>
@@ -100,7 +102,7 @@ class ShopDetails extends React.Component {
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                <strong>These are currently available mask fabrics. [08-14-2020]</strong>
+                <strong>These are currently available mask fabrics. [08-25-2020]</strong>
                 <br/>
                 Mask availability may vary as this section is not updated immediately.
                 <br/>
@@ -118,16 +120,24 @@ class ShopDetails extends React.Component {
                 <p>World Travel</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
-                <p>Mint Gingham</p>
-              </div>
-              <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
                 <p>80s Summer</p>
               </div>
               <div className='shop-image gallery-image'>
                 <img src='../masks/80s_summer_loops_folded.jpg' alt='80s summer with loops folded' />
                 <p>80s Summer</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
+                <p>Camping Trip</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
+                <p>Camping Trip</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
+                <p>Mint Gingham</p>
               </div>
             </div>
           </div>
