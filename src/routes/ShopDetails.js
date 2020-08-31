@@ -30,9 +30,8 @@ class ShopDetails extends React.Component {
             <h2>Alinagami Mask</h2>
             <div className='mask-prices'>
               <h4>$20 / mask</h4>
-              <h5>+ $3 or more by mail depending on package size (Support USPS)</h5>
-              <h5>+ $3 by delivery (Seattle area only)</h5>
-              <h5>+ $0 for pick up (Seattle Capitol Hill neighborhood)</h5>
+              <h5>+ $9 by USPS Flat Rate Priority Mail (Support USPS)</h5>
+              <h5>+ $0 for local pick up (Seattle Capitol Hill neighborhood)</h5>
               <h6>Venmo and PayPal ("Friends and Family" Payment Type!) accepted. </h6>
             </div>
             <p>All masks are final sale and may not be returned or exchanged.</p>
@@ -68,7 +67,7 @@ class ShopDetails extends React.Component {
             <ul className='shop-details-list'>
               <li>Reusable, non-medical face mask.</li>
               <li>100% cotton, washed and pressed.</li>
-              <li>High quality and precise craftsmanship.</li>
+              <li>High quality and precise handmade craftsmanship.</li>
               <li>Thoughtful design.</li>
               <li>Extra wide protective coverage.</li>
               <li>Easy access pocket for filter.</li>
@@ -85,17 +84,17 @@ class ShopDetails extends React.Component {
           <div className='shop-details-section-wrapper' id='how-to-order'>
             <h2>How to Order</h2>
             <div className='how-to-order-text-wrapper'>
-              <p>Send Alina an email at <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</p>
+              <h5>Send Alina an email to <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</h5>
 
               <ul className='shop-details-list'>
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
                 <li><strong>Wear Preference</strong>: Ear Loops // Ties</li>
-                <li><strong>Delivery Method</strong>: Mail // Delivery // Pick Up</li>
-                <li><strong>Address</strong>: If by Mail or Delivery</li>
+                <li><strong>Delivery Method</strong>: Mail // Pick Up</li>
+                <li><strong>Address</strong> (if by Mail)</li>
                 <li><strong>Number of Mask(s)</strong></li>
               </ul>
 
-              <p>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</p>
+              <h5>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</h5>
             </div>
           </div>
 
@@ -103,11 +102,11 @@ class ShopDetails extends React.Component {
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                <strong>These are currently available mask fabrics. [08-25-2020]</strong>
+                <strong>These are currently available mask fabrics.</strong>
                 <br/>
-                Mask availability may vary as this section is not updated immediately.
+                Follow <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram for new mask fabrics and volumes announcements.
                 <br/>
-                Please refer to <Link to='#how-to-order' className='link'>[How to Order]</Link> to place an order. Thank you!
+                Please refer to <Link to='#how-to-order' className='shop-link'>[How to Order]</Link> to place an order. Thank you!
               </p>
             </div>
 

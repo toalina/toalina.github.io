@@ -59,7 +59,7 @@ width: 500px;
   text-align: left;
 }
 .shop-details-section-wrapper p {
-  font-size: 16px;
+  /*font-size: 16px;*/
 }
 
 .how-to-order-text-wrapper p {
@@ -109,6 +109,7 @@ width: 500px;
 }
 .shop-details-list {
   list-style: disc;
+  font-size: 16px;
 }
 #shop-menu {
   margin-left: 0;
