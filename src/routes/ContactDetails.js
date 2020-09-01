@@ -11,7 +11,7 @@ class ContactDetails extends React.Component {
             <p>Photo by Christopher Staples</p>
           </div>
           <div className='contact-text-wrapper'>
-            <p><i class='far fa-envelope' /><a href='mailto:someone@yoursite.com?subject=Mail from Our Site'>alina.to@gmail.com</a></p>
+            <p><i class='far fa-envelope' /><a href='mailto:alina.to@gmail.com?subject=Hi Alina! (from helloalinato.com)' target='_blank' rel='noopener noreferrer'>alina.to@gmail.com</a></p>
             <p><i class='fab fa-instagram' /><a href='https://www.instagram.com/geniuspluslove/' target='_blank' rel='noopener noreferrer'>@geniuspluslove</a></p>
             <p><i class='fas fa-seedling' /><a href='https://www.instagram.com/alinasew/' target='_blank' rel='noopener noreferrer'>@alinasew</a></p>
             <p><i class='fas fa-bread-slice' /><a href='https://www.instagram.com/alinadough/' target='_blank' rel='noopener noreferrer'>@alinadough</a></p>
