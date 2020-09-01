@@ -84,7 +84,7 @@ class ShopDetails extends React.Component {
           <div className='shop-details-section-wrapper' id='how-to-order'>
             <h2>How to Order</h2>
             <div className='how-to-order-text-wrapper'>
-              <h5>Send Alina an email to <a href="mailto: alina.to@gmail.com" target="_blank" rel="noopener noreferrer" class="shop-link">[alina.to@gmail.com]</a> with the following info:</h5>
+              <h5>Send Alina an email to <a href='mailto:alina.to@gmail.com?subject=Alinagami Mask Order (from helloalinato.com/shop)' target='_blank' rel='noopener noreferrer' class='shop-link'>[alina.to@gmail.com]</a> with the following info:</h5>
 
               <ul className='shop-details-list'>
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
