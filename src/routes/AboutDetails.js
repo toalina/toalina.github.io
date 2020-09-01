@@ -24,11 +24,13 @@ class AboutDetails extends React.Component {
         <section className='about-list'>
           <h2>Notable Clients & Collaborators:</h2>
           <ul>
-            <li>Sir Mix-A-Lot</li>
+            <li>The Who</li>
             <li>Perfume Genius</li>
-            <li>ODESZA</li>
+            <li>Sir Mix-A-Lot</li>
+            <li>Josh Groban</li>
             <li>Macklemore</li>
             <li>Fleet Foxes</li>
+            <li>ODESZA</li>
             <li>Father John Misty</li>
             <li>Laura Gibson</li>
             <li>Symphony Tacoma</li>
