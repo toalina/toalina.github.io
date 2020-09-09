@@ -33,8 +33,11 @@ class ShopDetails extends React.Component {
               <h5>+ $9 by USPS Flat Rate Priority Mail (Support USPS)</h5>
               <h5>+ $0 for local pick up (Seattle Capitol Hill neighborhood)</h5>
               <h6>Venmo and PayPal ("Friends and Family" Payment Type!) accepted. </h6>
+              <p>All masks are final sale and may not be returned or exchanged.</p>
+
             </div>
-            <p>All masks are final sale and may not be returned or exchanged.</p>
+            <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
+
           </div>
 
           <div className='shop-details-section-wrapper' id='features'>
@@ -66,25 +69,31 @@ class ShopDetails extends React.Component {
 
             <ul className='shop-details-list'>
               <li>Reusable, non-medical face mask.</li>
+              <li>Extra tall and wide protective coverage.</li>
+              <li>Thoughtful pattern design for glasses wearers.</li>
+              <li>High quality and precise handmade construction.</li>
+              <li>Made to Order.</li>
+              <br/>
               <li>100% cotton, washed and pressed.</li>
-              <li>High quality and precise handmade craftsmanship.</li>
-              <li>Thoughtful design.</li>
-              <li>Extra wide protective coverage.</li>
               <li>Easy access pocket for filter.</li>
               <li>Double-layered construction.</li>
-              <li>Box shape for comfort between nose and mouth.</li>
-              <li>Adjustable ear loops or tie on cords.</li>
+              <li>3D shape for comfort between nose and mouth.</li>
+              <li>Adjustable [Ear Loops] or [Ties] (Made to Order)</li>
               <li>Removable nose and chin wires.</li>
               <li>Machine washable.</li>
               <li><Link to='/mask' className='shop-link'>[Instructions]</Link> for wear and care and filter recommendations.</li>
-              <li>Eyeglasses and somewhat yawn friendly. (Yes, I tested yawning, enough space for a 50% yawn. If you're yawning at 100%, you should probably be at home.)</li>
+              <li>Eyeglasses and somewhat yawn friendly. (Yes, I tested yawning, enoughspace for a 50% yawn. If you are yawning at 100%, you should probably go home and take a nap.)</li>
+              <br/>
+              <li>Every seam finished and pressed for long time use.</li>
+              <li>Solo workshop <span role='img' aria-label='strong arm emoji'>💪</span></li>
             </ul>
           </div>
 
           <div className='shop-details-section-wrapper' id='how-to-order'>
             <h2>How to Order</h2>
             <div className='how-to-order-text-wrapper'>
-              <h5>Send Alina an email to <a href='mailto:alina.to@gmail.com?subject=Alinagami Mask Order (from helloalinato.com/shop)' target='_blank' rel='noopener noreferrer' class='shop-link'>[alina.to@gmail.com]</a> with the following info:</h5>
+              <h5>Option A</h5>
+              <h6>Send Alina an email to <a href='mailto:alina.to@gmail.com?subject=Alinagami Mask Order (from helloalinato.com/shop)' target='_blank' rel='noopener noreferrer' class='shop-link'>[alina.to@gmail.com]</a> with the following info:</h6>
 
               <ul className='shop-details-list'>
                 <li><strong>Fabric Name</strong>: See <Link to='#gallery' className='link'>[Gallery]</Link></li>
@@ -93,8 +102,10 @@ class ShopDetails extends React.Component {
                 <li><strong>Address</strong> (if by Mail)</li>
                 <li><strong>Number of Mask(s)</strong></li>
               </ul>
-
-              <h5>You can also send a message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram</h5>
+              <h5>Option B</h5>
+              <h6>You can also send a direct message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram to order.</h6>
+              <h5>Option C</h5>
+              <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
             </div>
           </div>
 
@@ -112,6 +123,30 @@ class ShopDetails extends React.Component {
 
             <div className="gallery-row-wrapper">
               <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
+                <p>Camping Trip</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
+                <p>Camping Trip</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/indigo_waves_folded.jpg' alt='Indigo waves mask folded' />
+                <p>Indigo Waves</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/indigo_waves_filter.jpg' alt='Indigo waves mask filter' />
+                <p>Indigo Waves</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/magenta_matsuri.jpg' alt='Magenta matsuri mask' />
+                <p>Magenta Matsuri</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/magenta_matsuri_filter.jpg' alt='Magenta matsuri  mask filter' />
+                <p>Magenta Matsuri</p>
+              </div>
+              <div className='shop-image gallery-image'>
                 <img src='../masks/world_travel_ties.jpg' alt='World travel mask with ties' />
                 <p>World Travel</p>
               </div>
@@ -120,21 +155,14 @@ class ShopDetails extends React.Component {
                 <p>World Travel</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/80s_summer_loops.jpg' alt='80s summer with loops' />
-                <p>80s Summer</p>
+                <img src='../masks/gray_squiggles_folded.jpg' alt='Gray squiggles mask folded' />
+                <p>Gray Squiggles</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/80s_summer_loops_folded.jpg' alt='80s summer with loops folded' />
-                <p>80s Summer</p>
+                <img src='../masks/gray_squiggles.jpg' alt='Gray squiggles mask' />
+                <p>Gray Squiggles</p>
               </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
-                <p>Camping Trip</p>
-              </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
-                <p>Camping Trip</p>
-              </div>
+
               <div className='shop-image gallery-image'>
                 <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
                 <p>Mint Gingham</p>

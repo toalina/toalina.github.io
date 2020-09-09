@@ -46,7 +46,10 @@ width: 500px;
 }
 
 /*Body text*/
-.shop-details-text-wrapper {
+.mask-prices,
+.shop-details-list,
+.shop-details-text-wrapper,
+.how-to-order-text-wrapper {
   margin-left: 20px;
 }
 .shop-details-text-wrapper p,
