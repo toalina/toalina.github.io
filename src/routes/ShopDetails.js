@@ -30,13 +30,15 @@ class ShopDetails extends React.Component {
             <h2>Alinagami Mask</h2>
             <div className='mask-prices'>
               <h4>$20 / mask</h4>
-              <h5>+ $9 by USPS Flat Rate Priority Mail (Support USPS)</h5>
+              <h5>+ shipping by mail (calculated after order confirmation)</h5>
               <h5>+ $0 for local pick up (Seattle Capitol Hill neighborhood)</h5>
               <h6>Venmo and PayPal ("Friends and Family" Payment Type!) accepted. </h6>
               <p>All masks are final sale and may not be returned or exchanged.</p>
 
             </div>
+            {/*
             <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
+          */}
 
           </div>
 
@@ -104,8 +106,11 @@ class ShopDetails extends React.Component {
               </ul>
               <h5>Option B</h5>
               <h6>You can also send a direct message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram to order.</h6>
-              <h5>Option C</h5>
-              <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
+              {/*
+                <h5>Option C</h5>
+                <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
+              */}
+
             </div>
           </div>
 
