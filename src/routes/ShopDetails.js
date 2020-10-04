@@ -103,14 +103,11 @@ class ShopDetails extends React.Component {
                 <li><strong>Delivery Method</strong>: Mail // Pick Up</li>
                 <li><strong>Address</strong> (if by Mail)</li>
                 <li><strong>Number of Mask(s)</strong></li>
+                <li><strong>Payment Method (Optional)</strong>: Your Venmo or PayPal username/email to receive payment request for quicker transaction</li>
+
               </ul>
               <h5>Option B</h5>
               <h6>You can also send a direct message to <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram to order.</h6>
-              {/*
-                <h5>Option C</h5>
-                <h6>For additional shipping options, please visit my <a href="https://www.etsy.com/shop/AlinaSew" target="_blank" rel="noopener noreferrer" class="shop-link">[Etsy Shop]</a>.</h6>
-              */}
-
             </div>
           </div>
 
@@ -118,7 +115,7 @@ class ShopDetails extends React.Component {
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                <strong>[09-21-2020] These are currently available mask fabrics.</strong>
+                <strong>[10-04-2020] These are currently available mask fabrics.</strong>
                 <br/>
                 Follow <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram for new mask fabrics and volumes announcements.
                 <br/>
@@ -128,12 +125,12 @@ class ShopDetails extends React.Component {
 
             <div className="gallery-row-wrapper">
               <div className='shop-image gallery-image'>
-                <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
-                <p>Camping Trip</p>
+                <img src='../masks/world_travel_ties.jpg' alt='World travel mask with ties' />
+                <p>World Travel</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
-                <p>Camping Trip</p>
+                <img src='../masks/world_travel_filter.jpg' alt='World travel mask filter' />
+                <p>World Travel</p>
               </div>
               <div className='shop-image gallery-image'>
                 <img src='../masks/magenta_matsuri.jpg' alt='Magenta matsuri mask' />
@@ -144,13 +141,30 @@ class ShopDetails extends React.Component {
                 <p>Magenta Matsuri</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/world_travel_ties.jpg' alt='World travel mask with ties' />
-                <p>World Travel</p>
+                <img src='../masks/gray_spots_ties.jpg' alt='Gray spots mask with ties' />
+                <p>Gray Spots</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/world_travel_filter.jpg' alt='World travel mask filter' />
-                <p>World Travel</p>
+                <img src='../masks/gray_spots_filter.jpg' alt='Gray spots mask filter' />
+                <p>Gray Spots</p>
               </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/green_biscuits.jpg' alt='Green biscuits mask' />
+                <p>Green Biscuits</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/green_biscuits_filter.jpg' alt='Green biscuits mask filter' />
+                <p>Green Biscuits</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
+                <p>Camping Trip</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
+                <p>Camping Trip</p>
+              </div>
+
               <div className='shop-image gallery-image'>
                 <img src='../masks/gray_squiggles_folded.jpg' alt='Gray squiggles mask folded' />
                 <p>Gray Squiggles</p>
@@ -158,6 +172,14 @@ class ShopDetails extends React.Component {
               <div className='shop-image gallery-image'>
                 <img src='../masks/gray_squiggles.jpg' alt='Gray squiggles mask' />
                 <p>Gray Squiggles</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/mint_mochi.jpg' alt='Mint mochi mask' />
+                <p>Mint Mochi</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/mint_mochi_filter.jpg' alt='Mint mochi mask filter' />
+                <p>Mint Mochi</p>
               </div>
 
               <div className='shop-image gallery-image'>
