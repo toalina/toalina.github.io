@@ -149,7 +149,7 @@ class ShopDetails extends React.Component {
                 <p>Gray Spots</p>
               </div>
               <div className='shop-image gallery-image'>
-                <img src='../masks/green_biscuits.jpg' alt='Green biscuits mask' />
+                <img src='../masks/green_biscuits_loops.jpg' alt='Green biscuits mask with ear loops' />
                 <p>Green Biscuits</p>
               </div>
               <div className='shop-image gallery-image'>
@@ -184,6 +184,10 @@ class ShopDetails extends React.Component {
 
               <div className='shop-image gallery-image'>
                 <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
+                <p>Mint Gingham</p>
+              </div>
+              <div className='shop-image gallery-image'>
+                <img src='../masks/mint_gingham_filter.jpg' alt='Mint gingham mask filter' />
                 <p>Mint Gingham</p>
               </div>
             </div>
