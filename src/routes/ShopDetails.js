@@ -173,15 +173,6 @@ class ShopDetails extends React.Component {
                 <img src='../masks/mint_mochi_filter.jpg' alt='Mint mochi mask filter' />
                 <p>Mint Mochi</p>
               </div>
-
-              <div className='shop-image gallery-image'>
-                <img src='../masks/mint_gingham.jpg' alt='Mint gingham mask' />
-                <p>Mint Gingham</p>
-              </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/mint_gingham_filter.jpg' alt='Mint gingham mask filter' />
-                <p>Mint Gingham</p>
-              </div>
             </div>
           </div>
         </section>
