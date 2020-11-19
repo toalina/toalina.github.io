@@ -10,11 +10,11 @@ class TechDetails extends React.Component {
         </div>
         <img src='../alina-ferry.jpg' alt='' />
         <div className='tech-description'>
-          <p>Seattle-based full-stack software developer with experience building and launching mobile and web applications from proof-of-concept to store with tight deadlines. Focused on high quality client delivery, cross-browser test coverage, attention to detail, and efficiently refactored code. Let’s get to work.</p>
+          <p>Seattle-based full-stack software developer and devops engineer with experience building and deploying mobile and web applications from proof-of-concept to store with tight deadlines. Focused on high quality client delivery, cross-browser test coverage, attention to detail, and efficiently refactored code. Moonlights as an established violinist. Let’s get to work.</p>
         </div>
         <div className='tech-description'>
           <h2>Skills</h2>
-          <p>JavaScript, NodeJS, ReactJS, AngularJS, jQuery, HTML5/CSS3, Sass, Python, Django, iOS, Android, Objective-C, Java, C#, MongoDB, SQL, Git, Agile, Google Cloud Engine, Docker, Kubernetes, Mocha/Chai/Enzyme, Selenium, Test-Driven Development.</p>
+          <p>JavaScript, NodeJS, ReactJS, AngularJS, jQuery, HTML5/CSS3, Sass, Python, Django, iOS, Android, Objective-C, Java, C#, MongoDB, SQL, Git, Agile, Azure DevOps, Google Cloud Platform, Docker, Kubernetes, Deployment, Mocha/Chai/Enzyme, Selenium, Cucumber/Gherkin, Test-Driven Development, Behavior-Driven Development.</p>
         </div>
         <div className='tech-description'>
           <h2>Resume</h2>
