@@ -115,7 +115,7 @@ class ShopDetails extends React.Component {
             <h2>Gallery</h2>
             <div className="shop-details-text-wrapper">
               <p>
-                <strong>[11-12-2020] These are currently available mask fabrics.</strong>
+                <strong>[11-19-2020] These are currently available mask fabrics.</strong>
                 <br/>
                 Follow <a href="https://www.instagram.com/alinasew" target="_blank" rel="noopener noreferrer" class="shop-link">[@alinasew]</a> on Instagram for new mask fabrics and volumes announcements.
                 <br/>
@@ -147,14 +147,6 @@ class ShopDetails extends React.Component {
               <div className='shop-image gallery-image'>
                 <img src='../masks/gray_spots_filter.jpg' alt='Gray spots mask filter' />
                 <p>Gray Spots</p>
-              </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/gray_squiggles_folded.jpg' alt='Gray squiggles mask folded' />
-                <p>Gray Squiggles</p>
-              </div>
-              <div className='shop-image gallery-image'>
-                <img src='../masks/gray_squiggles.jpg' alt='Gray squiggles mask' />
-                <p>Gray Squiggles</p>
               </div>
               <div className='shop-image gallery-image'>
                 <img src='../masks/mint_mochi.jpg' alt='Mint mochi mask' />
