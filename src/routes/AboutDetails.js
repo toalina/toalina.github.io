@@ -11,14 +11,14 @@ class AboutDetails extends React.Component {
         </div>
         <div className='about-feature-wrapper'>
           <div className='about-feature-image'>
-            <img src='../violin-bob-scoverski.jpg' alt='Alina at Fremont Abbey, by Bob Scoverski' />
+            <img src='../assets/violin-bob-scoverski.jpg' alt='Alina at Fremont Abbey, by Bob Scoverski' />
             <p>Photo by Bob Scoverski</p>
           </div>
           <div className='about-feature-text'>
             <p>
               Professional musician with over 20 years of experience on violin, studio recording and live performances. As a classically trained violinist, Alina has expanded her expertise across jazz, rock, pop, hip hop, experimental, and folk. She is well-versed across multiple genres and performs both acoustically and amplified (with a dialed-in pedalboard). See available <Link to='#services' className='link'>services</Link> below.
             </p>
-            <p>P.S. Are you looking for <Link to='/etc' className='link'>Alina</Link>, the lady who is selling <Link to='/shop' className='link'>Alinagami Face Masks</Link>?</p>
+            <p><em>P.S. Are you looking for <Link to='/etc' className='link'>Alina</Link>, the lady who is selling <Link to='/shop' className='link'>Alinagami Face Masks</Link>?</em></p>
           </div>
         </div>
         <section className='about-list'>

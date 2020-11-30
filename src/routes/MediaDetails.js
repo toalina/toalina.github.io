@@ -36,7 +36,6 @@ class MediaDetails extends React.Component {
               <h5>Recorded February 2016</h5>
             </div>
           </div>
-
           <div className='media-container'>
             <div className='video-container'>
               <iframe title='Laura Gibson KEXP In-Studio Performance' width='320' height='180' src='https://www.youtube.com/embed/cZSKNnxgseI?start=1059' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
@@ -73,20 +72,6 @@ class MediaDetails extends React.Component {
               </div>
               <h3>Jherek Bischoff</h3>
               <h5>"Cistern" from "Cistern"</h5>
-            </div>
-            <div className='media-container'>
-              <div className='video-container'>
-                <iframe title='Reynolds KITCHENS™ Quick Cut™ Plastic Wrap' width='320' height='180' src='https://www.youtube.com/embed/f2nQjyebcuA' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
-              </div>
-              <h3>Reynolds KITCHENS™ Quick Cut™ Plastic Wrap</h3>
-              <h5>Commercial Soundtrack</h5>
-            </div>
-            <div className='media-container'>
-              <div className='video-container'>
-                <iframe title='The Storytellers Behind Apple TV+' width='320' height='180' src='https://www.youtube.com/embed/RrdbT4hpwBk' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
-              </div>
-              <h3>The Storytellers Behind Apple TV+</h3>
-              <h5>Commercial Soundtrack</h5>
             </div>
           </div>
         </section>

@@ -7,7 +7,7 @@ class EtcDetails extends React.Component {
       <div className='etc-details'>
         <h1 className='header-title'>Etc.</h1>
         <div className='etc-image'>
-          <img src='../alina-ferry-2.jpg' alt='Alina on Bainbridge Ferry' />
+          <img src='../assets/alina-ferry-2.jpg' alt='Alina on Bainbridge Ferry' />
         </div>
 
         <div className='etc-text-wrapper'>

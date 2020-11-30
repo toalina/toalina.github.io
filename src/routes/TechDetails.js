@@ -8,7 +8,7 @@ class TechDetails extends React.Component {
         <div className='tech-header'>
           <h1 className='header-title'>The Software Developer</h1>
         </div>
-        <img src='../alina-ferry.jpg' alt='' />
+        <img src='../assets/alina-ferry.jpg' alt='' />
         <div className='tech-description'>
           <p>Seattle-based full-stack software developer and devops engineer with experience building and deploying mobile and web applications from proof-of-concept to store with tight deadlines. Focused on high quality client delivery, cross-browser test coverage, attention to detail, and efficiently refactored code. Moonlights as an established violinist. Let’s get to work.</p>
         </div>

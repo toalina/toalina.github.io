@@ -6,7 +6,7 @@ class Home extends React.Component {
     return (
       <div className='home'>
         <div className='image-wrapper'>
-          <img src='../violin-desk-sm.jpg' alt='Violin desk with Totoro' />
+          <img src='../assets/violin-desk-sm.jpg' alt='Violin desk with Totoro' />
         </div>
         <h1 className='header-title shows-list-title'>
           Upcoming Shows?

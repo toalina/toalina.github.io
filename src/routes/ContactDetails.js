@@ -7,7 +7,7 @@ class ContactDetails extends React.Component {
         <h1 className='header-title'>Contact</h1>
         <div className='contact-details-wrapper'>
           <div className='contact-image-wrapper'>
-            <img src='../alina-jerrys.jpg' alt='Alina To at Jerrys' />
+            <img src='../assets/alina-jerrys.jpg' alt='Alina To at Jerrys' />
             <p>Photo by Christopher Staples</p>
           </div>
           <div className='contact-text-wrapper'>
