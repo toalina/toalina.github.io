@@ -7,7 +7,7 @@ import EtcDetails from './EtcDetails'
 import TechDetails from './TechDetails'
 import BakingDetails from './BakingDetails'
 import SewingDetails from './SewingDetails'
-import MaskDetails from './MaskDetails'
+import MaskDetails from './Mask/MaskDetails'
 import ShopDetails from './ShopDetails'
 import ContactDetails from './ContactDetails'
 import NoMatch from './NoMatch'
@@ -21,7 +21,6 @@ class Main extends Component {
     return (
       <main className='content-wrapper'>
         <div>
-
           <Switch>
             <Route exact path='/' render={() => <Home />} />
             <Route path='/about' component={AboutDetails} />
