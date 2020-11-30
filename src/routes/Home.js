@@ -24,7 +24,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>January 23, 2020 Thurs</h4>
@@ -35,7 +35,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>February 13, 2020 Thurs 8PM</h4>
@@ -46,7 +46,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>February 21, 2020 Fri</h4>
@@ -57,7 +57,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>February 22, 2020 Sat 2PM</h4>
@@ -68,7 +68,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>February 23, 2020 Sun 7:30PM</h4>
@@ -79,7 +79,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>February 29, 2020 Sat</h4>
@@ -102,7 +102,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>January 18, 2020 Sat</h4>
@@ -114,7 +114,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>December 15, 2019 Sun (2PM)</h4>
@@ -126,7 +126,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>December 14, 2019 Sat (2PM)</h4>
@@ -138,7 +138,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>November 16, 2019 Sat</h4>
@@ -149,7 +149,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>November 7, 2019 Thurs (6PM)</h4>
@@ -160,7 +160,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>October 31, 2019 Thurs</h4>
@@ -172,7 +172,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>October 19, 2019 Sat</h4>
@@ -184,7 +184,7 @@ class Home extends React.Component {
 
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 25, 2019 Sun</h4>
@@ -195,7 +195,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 24, 2019 Sat</h4>
@@ -206,7 +206,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 22, 2019 Thurs</h4>
@@ -217,7 +217,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 20, 2019 Tues</h4>
@@ -228,7 +228,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 16, 2019 Fri</h4>
@@ -239,7 +239,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 9, 2019 Fri</h4>
@@ -250,7 +250,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>August 1, 2019 Thurs</h4>
@@ -261,7 +261,7 @@ class Home extends React.Component {
                 </div>
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
-                    <img src='violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>July 12, 2019 Sat</h4>

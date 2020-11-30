@@ -5,7 +5,6 @@ import AboutDetails from './AboutDetails'
 import MediaDetails from './MediaDetails'
 import EtcDetails from './EtcDetails'
 import TechDetails from './TechDetails'
-import BakingDetails from './BakingDetails'
 import SewingDetails from './SewingDetails'
 import MaskDetails from './Mask/MaskDetails'
 import ShopDetails from './Shop/ShopDetails'
@@ -27,7 +26,6 @@ class Main extends Component {
             <Route path='/media' component={MediaDetails} />
             <Route path='/etc' component={EtcDetails} />
             <Route path='/tech' component={TechDetails} />
-            <Route path='/baking' component={BakingDetails} />
             <Route path='/sewing' component={SewingDetails} />
             <Route path='/mask' component={MaskDetails} />
             <Route path='/shop' component={ShopDetails} />
