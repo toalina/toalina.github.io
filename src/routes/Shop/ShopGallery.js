@@ -15,12 +15,36 @@ const ShopGallery = props => (
     </div>
     <div className="gallery-row-wrapper">
       <div className='shop-image gallery-image'>
+        <img src='../masks/green_biscuits.jpg' alt='Green biscuits mask with ear loops' />
+        <p>Green Biscuits</p>
+      </div>
+      <div className='shop-image gallery-image'>
+        <img src='../masks/green_biscuits_inside.jpg' alt='Green biscuits mask filter' />
+        <p>Green Biscuits</p>
+      </div>
+      <div className='shop-image gallery-image'>
+        <img src='../masks/solid_black.jpg' alt='Solid black mask with ear loops' />
+        <p>Solid Black</p>
+      </div>
+      <div className='shop-image gallery-image'>
+        <img src='../masks/solid_black_inside.jpg' alt='Solid black mask filter' />
+        <p>Solid Black</p>
+      </div>
+      <div className='shop-image gallery-image'>
         <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
         <p>Camping Trip</p>
       </div>
       <div className='shop-image gallery-image'>
         <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
         <p>Camping Trip</p>
+      </div>
+      <div className='shop-image gallery-image'>
+        <img src='../masks/yellow_little_triangles_ties.jpg' alt='Yellow little triangles mask with ties' />
+        <p>Yellow Little Triangles</p>
+      </div>
+      <div className='shop-image gallery-image'>
+        <img src='../masks/yellow_little_triangles_inside.jpg' alt='Yellow little triangles mask filter' />
+        <p>Yellow Little Triangles</p>
       </div>
       <div className='shop-image gallery-image'>
         <img src='../masks/magenta_matsuri.jpg' alt='Magenta matsuri mask' />
