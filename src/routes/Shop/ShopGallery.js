@@ -62,14 +62,6 @@ const ShopGallery = props => (
         <img src='../masks/gray_spots_filter.jpg' alt='Gray spots mask filter' />
         <p>Gray Spots</p>
       </div>
-      <div className='shop-image gallery-image'>
-        <img src='../masks/mint_mochi.jpg' alt='Mint mochi mask' />
-        <p>Mint Mochi</p>
-      </div>
-      <div className='shop-image gallery-image'>
-        <img src='../masks/mint_mochi_filter.jpg' alt='Mint mochi mask filter' />
-        <p>Mint Mochi</p>
-      </div>
     </div>
   </div>
 )
