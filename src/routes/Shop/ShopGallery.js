@@ -23,22 +23,6 @@ const ShopGallery = props => (
         <p>Green Biscuits</p>
       </div>
       <div className='shop-image gallery-image'>
-        <img src='../masks/solid_black.jpg' alt='Solid black mask with ear loops' />
-        <p>Solid Black</p>
-      </div>
-      <div className='shop-image gallery-image'>
-        <img src='../masks/solid_black_inside.jpg' alt='Solid black mask filter' />
-        <p>Solid Black</p>
-      </div>
-      <div className='shop-image gallery-image'>
-        <img src='../masks/camping_trip_ties.jpg' alt='Camping trip mask with ties' />
-        <p>Camping Trip</p>
-      </div>
-      <div className='shop-image gallery-image'>
-        <img src='../masks/camping_trip_ties_inside.jpg' alt='Camping trip mask filter' />
-        <p>Camping Trip</p>
-      </div>
-      <div className='shop-image gallery-image'>
         <img src='../masks/yellow_little_triangles_ties.jpg' alt='Yellow little triangles mask with ties' />
         <p>Yellow Little Triangles</p>
       </div>
