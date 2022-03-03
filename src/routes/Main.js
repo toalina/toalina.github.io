@@ -5,9 +5,10 @@ import AboutDetails from './AboutDetails'
 import MediaDetails from './MediaDetails'
 import EtcDetails from './EtcDetails'
 import TechDetails from './TechDetails'
+import PastShows from './PastShows'
 import SewingDetails from './SewingDetails'
-import MaskDetails from './Mask/MaskDetails'
-import ShopDetails from './Shop/ShopDetails'
+// import MaskDetails from './Mask/MaskDetails'
+// import ShopDetails from './Shop/ShopDetails'
 import ContactDetails from './ContactDetails'
 import NoMatch from './NoMatch'
 
@@ -24,11 +25,14 @@ class Main extends Component {
             <Route exact path='/' render={() => <Home />} />
             <Route path='/about' component={AboutDetails} />
             <Route path='/media' component={MediaDetails} />
-            <Route path='/etc' component={EtcDetails} />
+            <Route path='/past' component={PastShows} />
             <Route path='/tech' component={TechDetails} />
+            <Route path='/etc' component={EtcDetails} />
             <Route path='/sewing' component={SewingDetails} />
+            {/*
             <Route path='/mask' component={MaskDetails} />
             <Route path='/shop' component={ShopDetails} />
+            */}
             <Route path='/contact' component={ContactDetails} />
             {/* when none of the above match, <NoMatch> will be rendered */}
             <Route component={NoMatch} />

@@ -35,8 +35,8 @@ const App = () => (
               <li><Link to='/'>Home</Link></li>
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/media'>Media</Link></li>
-              <li><Link to='/mask'>Mask</Link></li>
-              <li><Link to='/shop'>Shop</Link></li>
+              <li><Link to='/past'>Past Shows</Link></li>
+              <li><Link to='/tech'>Tech</Link></li>
               <li>
                 <Link to='/etc'>Etc.</Link>
                 {/*
@@ -64,7 +64,7 @@ const App = () => (
         <li><a href='https://github.com/toalina' target='_blank' rel='noopener noreferrer'><i className='fab fa-github fa-2x' /></a></li>
       </ul>
       <div className='footer-copyright'>
-        <p>&#169; Copyright 2020. All Rights Reserved.
+        <p>&#169; Copyright 2022. All Rights Reserved.
         <br />
         Site designed and built from scratch by <Link to='/tech' className='link'>Alina</Link>.</p>
       </div>

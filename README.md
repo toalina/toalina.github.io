@@ -6,6 +6,9 @@ Deployed via Github Pages and `gh-pages` npm package.
 
 Use `yarn`! We love `yarn`.
 
+[Update 03-02-2022]
+## This is the main repo for Github Page deployment.
+
 [Updated 08-14-2020]
 ## Github > Settings > Github Pages
 Make sure `Source` branch is set to `gh-pages` and not `master`
