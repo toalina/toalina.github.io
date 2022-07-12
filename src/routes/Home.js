@@ -16,18 +16,17 @@ class Home extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2022</h3>
-                <p>(I am so grateful to be playing shows again!)</p>
-                {/*Head and Heart / PSQ*/}
+                {/*Tomo Nakayama*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>Feb 26 Sat</h4>
+                    <h4 className='show-text-date'>July 22 Fri</h4>
                     <p className='show-text-link'>
-                      Matty and Charity Gervais (The Head and the Heart) & The Passenger String Quartet
+                      Tomo Nakayama
                       <br />
-                      Manor House (Bainbridge Island)
+                      Timber Fest (Carnation, WA)
                     </p>
                   </div>
                 </div>
@@ -37,34 +36,22 @@ class Home extends React.Component {
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>March 5 Sat</h4>
-                    <p className='show-text-link'><a href='https://www.showboxpresents.com/events/detail/422616' target='_blank' rel='noopener noreferrer'>Tomo Nakayama (opening for The Dip)
+                    <h4 className='show-text-date'>Aug 5 Fri</h4>
+                    <p className='show-text-link'>Tomo Nakayama
                     <br />
-                    Showbox (Seattle, WA)</a></p>
+                    W Hotel (Seattle, WA)</p>
                   </div>
                 </div>
-                {/*Lee Oskar / PSQ*/}
+                {/*Tomo Nakayama*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>March 11 Fri</h4>
-                    <p className='show-text-link'><a href='https://tickets.thetripledoor.net/eventperformances.asp?evt=1868' target='_blank' rel='noopener noreferrer'>Lee Oskar & Passenger String Quartet
+                    <h4 className='show-text-date'>Aug 6 Sat</h4>
+                    <p className='show-text-link'>Tomo Nakayama, KEXP 50th Anniversary
                     <br />
-                    The Triple Door (Seattle, WA)</a></p>
-                  </div>
-                </div>
-                {/*Grieves / Joslyn*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>April 30 Sat</h4>
-                    <p className='show-text-link'><a href='https://grievesmusic.com/news/244337' target='_blank' rel='noopener noreferrer'>Grieves & Andrew Joslyn Orchestra
-                    <br />
-                    Crocodile Cafe (Seattle, WA)</a></p>
+                    KEXP at Seattle Center, Gathering Space (Seattle, WA)</p>
                   </div>
                 </div>
               </div>

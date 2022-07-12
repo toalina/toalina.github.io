@@ -12,6 +12,106 @@ class PastShows extends React.Component {
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
+                <h3>2022</h3>
+                {/*Auburn Symphony Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>July 7 Thurs</h4>
+                    <p className='show-text-link'>Auburn Symphony Orchestra
+                    <br />
+                    Benaroya Hall (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>June 3 Fri</h4>
+                    <p className='show-text-link'>Tomo Nakayama
+                    <br />
+                    Tractor Tavern (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*Seattle Peace Chorus*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>May 30 Mon</h4>
+                    <p className='show-text-link'>Seattle Peace Chorus, Mozart Requium Singalong
+                    <br />
+                    Seattle Center, Intiman Courtyard (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*PSQ & Goodnight Suzie*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>May 22 Sun</h4>
+                    <p className='show-text-link'>Passenger String Quartet w/ Goodnight Suzie
+                    <br />
+                    Bake's Place (Bellevue, WA)</p>
+                  </div>
+                </div>
+                {/*Jim Knapp Memorial / Scrape*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>May 9 Mon</h4>
+                    <p className='show-text-link'>Scrape, Jim Knapp Celebration
+                    <br />
+                    Chapel Performance Space at Good Shepherd Center (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*Lee Oskar / PSQ*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>March 11 Fri</h4>
+                    <p className='show-text-link'><a href='https://tickets.thetripledoor.net/eventperformances.asp?evt=1868' target='_blank' rel='noopener noreferrer'>Passenger String Quartet w/ Lee Oskar
+                    <br />
+                    The Triple Door (Seattle, WA)</a></p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>March 5 Sat</h4>
+                    <p className='show-text-link'><a href='https://www.showboxpresents.com/events/detail/422616' target='_blank' rel='noopener noreferrer'>Tomo Nakayama (opening for The Dip)
+                    <br />
+                    Showbox (Seattle, WA)</a></p>
+                  </div>
+                </div>
+                {/*Head and Heart / PSQ*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Feb 26 Sat</h4>
+                    <p className='show-text-link'>
+                      Matty and Charity Gervais (The Head and the Heart) & The Passenger String Quartet
+                      <br />
+                      Manor House (Bainbridge Island)
+                    </p>
+                  </div>
+                </div>
+
                 <h3>2021</h3>
                 {/*Andrea Bocelli*/}
                 <div className='show-container'>
