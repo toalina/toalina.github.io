@@ -25,30 +25,34 @@ class AboutDetails extends React.Component {
           <ul>
             <li>The Who</li>
             <li>Perfume Genius</li>
-            <li>Sir Mix-A-Lot</li>
-            <li>Josh Groban</li>
-            <li>Macklemore</li>
-            <li>Fleet Foxes</li>
-            <li>ODESZA</li>
-            <li>Father John Misty</li>
-            <li>Laura Gibson</li>
-            <li>Symphony Tacoma</li>
             <li>Leon Bridges</li>
             <li>Wayne Horvitz</li>
             <li>Jherek Bischoff</li>
             <li>Ryuichi Sakamoto</li>
+            <li>Sir Mix-A-Lot</li>
+            <li>Josh Groban</li>
+            <li>Andrea Bocelli</li>
+            <li>Macklemore</li>
+            <li>Fleet Foxes</li>
+            <li>ODESZA</li>
+            <li>Father John Misty</li>
+            <li>Judy Collins</li>
             <li>Duff McKagan</li>
             <li>Built to Spill</li>
             <li>Pedro the Lion </li>
-            <li>Judy Collins</li>
-            <li>DJ Spooky & Joshua Roman</li>
+            <li>DJ Spooky</li>
+            <li>Joshua Roman</li>
             <li>Tomo Nakayama</li>
+            <li>Laura Gibson</li>
+            <li>Symphony Tacoma</li>
+            <li>Auburn Symphony Orchestra</li>
+            <li>Seattle Chamber Orchestra</li>
             <li>Passenger String Quartet</li>
+            <li>Seattle Music Inc.</li>
             <li>Jeremy Enigk (of Sunny Day Real Estate)</li>
             <li>Amanda Palmer</li>
             <li>Mirah</li>
             <li>Pickwick</li>
-            <li>Seattle Music Inc.</li>
             <li>Ahamefule Oluo</li>
             <li>Erik Blood</li>
             <li>Phil Ek</li>

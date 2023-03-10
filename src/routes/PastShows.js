@@ -12,7 +12,258 @@ class PastShows extends React.Component {
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
+                <h3>2023</h3>
+                {/*Paul Kikuchi - Omoide*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Feb 26 Sun</h4>
+                    <p className='show-text-link'><a href='https://www.seattlerep.org/audience-programs/upcoming-events/past-events/what-is-home-japanese-american-stories-from-omoide/' target='_blank' rel='noopener noreferrer'>
+                      Paul Kikuchi's In Shadows Performance
+                      <br />
+                      Seattle Repatory Theater Poncho Forum
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*ASO-January*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Feb 25 Sat</h4>
+                    <p className='show-text-link'>
+                      Auburn Symphony Orchestra
+                      <br />
+                      Federal Way Performing Arts Center
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Feb 8 Wed</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Rabbit Box (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*PSQ*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Jan 31 Tues</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet
+                      <br />
+                      Seattle Aquarium (Private Event)
+                    </p>
+                  </div>
+                </div>
+                {/*ASO-January*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Jan 29 Sun @ 2:30PM</h4>
+                    <p className='show-text-link'>
+                      Auburn Symphony Orchestra
+                      <br />
+                      Auburn Performing Arts Center
+                    </p>
+                  </div>
+                </div>
+                {/*PSQ*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Jan 20 Fri</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet
+                      <br />
+                      Showbox SODO (Private Event)
+                    </p>
+                  </div>
+                </div>
+
                 <h3>2022</h3>
+                {/*Nutcracker*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Dec 10 Sat 2PM</h4>
+                    <p className='show-text-link'>
+                      Nutcracker / Emerald Ballet Theatre / Emerald Ballet Theatre Orchestra
+                      <br />
+                      Northshore Performing Arts Center (Bothell, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Lee Oskar*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Oct 22 Sat</h4>
+                    <p className='show-text-link'>
+                      Lee Oskar / Passenger String Quartet
+                      <br />
+                      Northshore Performing Arts Center (Bothell, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Cumulus*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Oct 21 Fri</h4>
+                    <p className='show-text-link'>
+                      Cumulus CD Release Show
+                      <br />
+                      Fremont Abbey (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Auburn Symphony Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Oct 10 Sun</h4>
+                    <p className='show-text-link'>
+                      Auburn Symphony Orchestra
+                      <br />
+                      Auburn Performing Arts Center
+                    </p>
+                  </div>
+                </div>
+                {/*Michael Buble*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Sept 28 Wed</h4>
+                    <p className='show-text-link'>
+                      Michael Buble
+                      <br />
+                      Climate Pledge Arena (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Michael Buble*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Sept 27 Tues</h4>
+                    <p className='show-text-link'>
+                      Michael Buble
+                      <br />
+                      Moda Center (Portland, OR)
+                    </p>
+                  </div>
+                </div>
+                {/*John Van Deusen*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Sept 16 Fri</h4>
+                    <p className='show-text-link'>
+                      John Van Deusen / Passenger String Quartet
+                      <br />
+                      Emerald City Trapeze Arts (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Sept 8 Thurs</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Triple Door (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Head and the heart*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Aug 12 Fri + 13 Sat</h4>
+                    <p className='show-text-link'>
+                      The Head and the Heart / Passenger String Quartet
+                      <br />
+                      Marymoor Park
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Aug 6 Sat</h4>
+                    <p className='show-text-link'>Tomo Nakayama, KEXP 50th Anniversary
+                    <br />
+                    KEXP at Seattle Center, Gathering Space (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>Aug 5 Fri</h4>
+                    <p className='show-text-link'>Tomo Nakayama
+                    <br />
+                    W Hotel (Seattle, WA)</p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>July 22 Fri</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Timber Fest (Carnation, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Auburn Symphony Orchestra*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
@@ -437,3 +688,4 @@ class PastShows extends React.Component {
 }
 
 export default PastShows
+

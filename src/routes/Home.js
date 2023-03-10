@@ -15,43 +15,34 @@ class Home extends React.Component {
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
-                <h3>2022</h3>
-                {/*Tomo Nakayama*/}
+                <h3>2023</h3>
+
+                {/*Seattle Chamber Orchestra*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>July 22 Fri</h4>
+                    <h4 className='show-text-date'>April 6 Wed</h4>
                     <p className='show-text-link'>
-                      Tomo Nakayama
+                      Seattle Chamber Orchestra
                       <br />
-                      Timber Fest (Carnation, WA)
+                      Plymouth Church (Seattle, WA)
                     </p>
                   </div>
                 </div>
-                {/*Tomo Nakayama*/}
+                {/*Tomo Nakayama - Buffalo Daughter*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>Aug 5 Fri</h4>
-                    <p className='show-text-link'>Tomo Nakayama
-                    <br />
-                    W Hotel (Seattle, WA)</p>
-                  </div>
-                </div>
-                {/*Tomo Nakayama*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>Aug 6 Sat</h4>
-                    <p className='show-text-link'>Tomo Nakayama, KEXP 50th Anniversary
-                    <br />
-                    KEXP at Seattle Center, Gathering Space (Seattle, WA)</p>
+                    <h4 className='show-text-date'>June 3 Sat</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama (Opening for Buffalo Daughter)
+                      <br />
+                      Substation (Seattle, WA)
+                    </p>
                   </div>
                 </div>
               </div>

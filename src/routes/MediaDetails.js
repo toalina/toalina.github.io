@@ -21,6 +21,7 @@ class MediaDetails extends React.Component {
         <section className='media-section'>
           <div className='video-section-wrapper' name='videos' id='videos'>
             <h2>Videos</h2>
+            {/*
             <div className='media-container'>
               <div className='video-container'>
                 <iframe title='Perfume Genius Sings His Love on W Records' width='320' height='180' src='https://www.youtube.com/embed/JdTpamdB_Nk?start=141' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
@@ -28,6 +29,7 @@ class MediaDetails extends React.Component {
               <h3>Perfume Genius Sings His Love on W Records</h3>
               <h5>Recorded December 2018</h5>
             </div>
+            */}
             <div className='media-container'>
               <div className='video-container'>
                 <iframe title='Amanda Palmer, Jherek Bischoff & Usman Riaz "Space Oddity" at TED2016' src='https://embed.ted.com/talks/lang/en/amanda_palmer_jherek_bischoff_usman_riaz_space_oddity' width='320' height='180' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />

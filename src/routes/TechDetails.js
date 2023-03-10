@@ -14,7 +14,7 @@ class TechDetails extends React.Component {
         </div>
         <div className='tech-description'>
           <h2>Skills</h2>
-          <p>JavaScript, NodeJS, ReactJS, AngularJS, jQuery, HTML5/CSS3, Sass, Python, Django, iOS, Android, Objective-C, Java, C#, MongoDB, SQL, Git, Agile, Azure DevOps, Google Cloud Platform, Docker, Kubernetes, Deployment, Mocha/Chai/Enzyme, Selenium, Cucumber/Gherkin, Test-Driven Development, Behavior-Driven Development.</p>
+          <p>JavaScript, NodeJS, ReactJS, AngularJS, jQuery, HTML5/CSS3, Sass, Python, Django, iOS, Android, Objective-C, Java, C#, MongoDB, SQL, Git, Agile, Azure DevOps, Google Cloud Platform, Salesforce stack, Lightning Web Components, Aura Components, Docker, Kubernetes, Deployment, Mocha/Chai/Enzyme, Selenium, Cucumber/Gherkin, Test-Driven Development, Behavior-Driven Development.</p>
         </div>
         {/*
         <div className='tech-description'>
