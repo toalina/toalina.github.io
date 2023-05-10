@@ -8,11 +8,25 @@ class PastShows extends React.Component {
         <div>
           <section>
             <h1 className='header-title shows-list-title'>
-              Past Shows
+              Past Performances
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
+                {/*Seattle Chamber Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>April 6 Wed</h4>
+                    <p className='show-text-link'>
+                      Seattle Chamber Orchestra
+                      <br />
+                      Plymouth Church (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Paul Kikuchi - Omoide*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>

@@ -13,6 +13,9 @@ Use `yarn`! We love `yarn`.
 ## Github > Settings > Github Pages
 Make sure `Source` branch is set to `gh-pages` and not `master`
 
+## To setup project:
+- `yarn install`
+
 ## To run app locally:
 - `yarn start`
 - http://localhost:3000

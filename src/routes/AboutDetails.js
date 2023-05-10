@@ -7,7 +7,7 @@ class AboutDetails extends React.Component {
     return (
       <div className='about-details'>
         <div className='about-header'>
-          <h1 className='header-title'>About</h1>
+          <h1 className='header-title'>About the Violinist</h1>
         </div>
         <div className='about-feature-wrapper'>
           <div className='about-feature-image'>
@@ -16,28 +16,31 @@ class AboutDetails extends React.Component {
           </div>
           <div className='about-feature-text'>
             <p>
-              Professional musician with over 20 years of experience on violin, studio recording and live performances. As a classically trained violinist, Alina has expanded her expertise across jazz, rock, pop, hip hop, experimental, and folk. She is well-versed across multiple genres and performs both acoustically and amplified (with a dialed-in pedalboard). See available <Link to='#services' className='link'>services</Link> below.
+              Professional musician with over 20 years of experience on violin, studio recording and live performances. As a classically trained violinist, Alina has expanded her expertise across jazz, rock, pop, hip hop, experimental, and folk. She is well-versed across multiple genres and performs both acoustically and amplified (with a dialed-in pedalboard). She occasionally sings, too.
+            </p>
+            <p> 
+              See available <Link to='#services' className='link'>services</Link>, <Link to='/' className='link'>upcoming shows</Link>, and some <Link to='/media' className='link'>recorded performances</Link>.
             </p>
           </div>
         </div>
         <section className='about-list'>
           <h2>Notable Clients & Collaborators:</h2>
           <ul>
-            <li>The Who</li>
+            <li>Macklemore</li>
+            <li>Fleet Foxes</li>
+            <li>ODESZA</li>
+            <li>Father John Misty</li>
             <li>Perfume Genius</li>
-            <li>Leon Bridges</li>
             <li>Wayne Horvitz</li>
             <li>Jherek Bischoff</li>
             <li>Ryuichi Sakamoto</li>
             <li>Sir Mix-A-Lot</li>
             <li>Josh Groban</li>
             <li>Andrea Bocelli</li>
-            <li>Macklemore</li>
-            <li>Fleet Foxes</li>
-            <li>ODESZA</li>
-            <li>Father John Misty</li>
+            <li>The Who</li>
             <li>Judy Collins</li>
             <li>Duff McKagan</li>
+            <li>Leon Bridges</li>
             <li>Built to Spill</li>
             <li>Pedro the Lion </li>
             <li>DJ Spooky</li>
@@ -54,6 +57,7 @@ class AboutDetails extends React.Component {
             <li>Mirah</li>
             <li>Pickwick</li>
             <li>Ahamefule Oluo</li>
+            <li>Paul Kikuchi</li>
             <li>Erik Blood</li>
             <li>Phil Ek</li>
             <li>Jack Endino</li>

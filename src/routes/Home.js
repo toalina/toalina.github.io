@@ -11,23 +11,23 @@ class Home extends React.Component {
         <div>
           <section>
             <h1 className='header-title shows-list-title'>
-              Upcoming Shows
+              Upcoming Performances
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
 
-                {/*Seattle Chamber Orchestra*/}
+                {/*Auburn Symphony Orchestra / Seattle Baroque Orchestra*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>April 6 Wed</h4>
+                    <h4 className='show-text-date'>May 14 Sun @ 2:30 PM</h4>
                     <p className='show-text-link'>
-                      Seattle Chamber Orchestra
+                    Auburn Symphony Orchestra and Seattle Baroque Orchestra
                       <br />
-                      Plymouth Church (Seattle, WA)
+                      Federal Way Performing Arts and Event Center (Federal Way, WA)
                     </p>
                   </div>
                 </div>
@@ -47,7 +47,7 @@ class Home extends React.Component {
                 </div>
               </div>
             </div>
-            <Link to='/past' className='link'>See Past Shows</Link>
+            <Link to='/past' className='link'>See Past Performances</Link>
           </section>
         </div>
         <div className='home-contact-text'>

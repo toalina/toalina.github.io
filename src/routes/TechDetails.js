@@ -6,7 +6,7 @@ class TechDetails extends React.Component {
     return (
       <div className='tech-details'>
         <div className='tech-header'>
-          <h1 className='header-title'>The Software Developer</h1>
+          <h1 className='header-title'>About the Software Developer</h1>
         </div>
         <img src='../assets/alina-ferry.jpg' alt='' />
         <div className='tech-description'>

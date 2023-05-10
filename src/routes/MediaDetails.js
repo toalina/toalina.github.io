@@ -47,6 +47,13 @@ class MediaDetails extends React.Component {
           </div>
           <div className='media-container'>
             <div className='video-container'>
+              <iframe title='Scrape "Lost Bird" by Jim Knapp at the Chapel' width='320' height='180' src='https://www.youtube.com/embed/vat4xIgD5fA' frameBorder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowFullScreen />
+            </div>
+            <h3>Scrape Performance of "Lost Bird" by Jim Knapp at the Chapel</h3>
+            <h5>Recorded August 2019</h5>
+          </div>
+          <div className='media-container'>
+            <div className='video-container'>
               <iframe title='ODESZA KEXP In-Studio Performance' width='320' height='180' src='https://www.youtube.com/embed/aGVU_1Udhrs' frameBorder='0' scrolling='no' allowFullScreen />
             </div>
             <h3>ODESZA KEXP In-Studio Performance</h3>
