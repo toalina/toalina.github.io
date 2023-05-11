@@ -11,7 +11,7 @@ class Home extends React.Component {
         <div>
           <section>
             <h1 className='header-title shows-list-title'>
-              Upcoming Performances
+              Future Shows
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
@@ -31,6 +31,20 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
+                {/*Seattle Peace Chorus*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>May 29 Mon @ 3PM</h4>
+                    <p className='show-text-link'>
+                      Seattle Peace Chorus - Mozart Requiem Singalong
+                      <br />
+                      Seattle Center, Northwest Folklife (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Tomo Nakayama - Buffalo Daughter*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
@@ -39,15 +53,29 @@ class Home extends React.Component {
                   <div className='show-text-wrapper'>
                     <h4 className='show-text-date'>June 3 Sat</h4>
                     <p className='show-text-link'>
-                      Tomo Nakayama (Opening for Buffalo Daughter)
+                      Tomo Nakayama - Opening for Buffalo Daughter 
                       <br />
                       Substation (Seattle, WA)
                     </p>
                   </div>
                 </div>
+                {/*Tomo Nakayama - Porchlight Show*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>June 17 Sat</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama - Porchlight Coffee & Records 14th Anniversary
+                      <br />
+                      Sunset Tavern (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <Link to='/past' className='link'>See Past Performances</Link>
+            <Link to='/past' className='link'>See Past Shows</Link>
           </section>
         </div>
         <div className='home-contact-text'>

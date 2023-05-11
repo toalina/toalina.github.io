@@ -32,7 +32,7 @@ const App = () => (
         <div id='topbar-responsive' className='topbar-responsive-links'>
           <div className='top-bar-right'>
             <ul className='menu simple vertical medium-horizontal' data-responsive-menu='accordion medium-dropdown'>
-              <li><Link to='/'>Home</Link></li>
+              <li><Link to='/'>Future Shows</Link></li>
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/media'>Media</Link></li>
               <li><Link to='/past'>Past Shows</Link></li>

@@ -8,7 +8,7 @@ class PastShows extends React.Component {
         <div>
           <section>
             <h1 className='header-title shows-list-title'>
-              Past Performances
+              Past Shows
             </h1>
             <div className='shows-list-container'>
               <div className='shows-list'>
