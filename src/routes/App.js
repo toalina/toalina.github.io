@@ -33,9 +33,9 @@ const App = () => (
           <div className='top-bar-right'>
             <ul className='menu simple vertical medium-horizontal' data-responsive-menu='accordion medium-dropdown'>
               <li><Link to='/'>Future Shows</Link></li>
+              <li><Link to='/past'>Past Shows</Link></li>
               <li><Link to='/about'>About</Link></li>
               <li><Link to='/media'>Media</Link></li>
-              <li><Link to='/past'>Past Shows</Link></li>
               <li><Link to='/tech'>Tech</Link></li>
               <li>
                 <Link to='/etc'>Etc.</Link>
