@@ -13,6 +13,20 @@ class PastShows extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
+                {/*Abbey Blackwell - Sunset Album Release Show*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>July 3 Monday</h4>
+                    <p className='show-text-link'>
+                      Abbey Blackwell - Album Release Show!
+                      <br />
+                      Sunset Tavern (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Tomo Nakayama - Porchlight Show*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
