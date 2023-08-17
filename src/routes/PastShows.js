@@ -13,6 +13,50 @@ class PastShows extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
+                {/*PSQ - Sonic Guild*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 12 Saturday</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet - Sonic Guild 
+                      <br />
+                      Montlake (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama - SLU Block Party*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 10 Thursday</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama - South Lake Union Block Party
+                      <br />
+                      SLU Discovery Center (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Erin Jorgensen Fest*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 3 Thursday</h4>
+                    <p className='show-text-link'>
+                      <a href='hhttps://www.erinjorgensenfestival.com/august-4.html' target='_blank' rel='noopener noreferrer'>
+                      Erin Jorgensen Fest - Sew and Tell! (A non-musical mini class)
+                      <br />
+                      18th & Union Theater - 1406 18th Ave (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 {/*Abbey Blackwell - Sunset Album Release Show*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
