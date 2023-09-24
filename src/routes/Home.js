@@ -76,6 +76,20 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
+                {/*DOTA 2 Internationale*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 27 Friday @ 10AM</h4>
+                    <p className='show-text-link'>
+                      DOTA 2 - The International 2023
+                      <br />
+                      Climate Pledge Arena (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Matt Cameron / Wayne Horvitz*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
