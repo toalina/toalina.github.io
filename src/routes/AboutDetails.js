@@ -46,17 +46,21 @@ class AboutDetails extends React.Component {
             <li>DJ Spooky</li>
             <li>Joshua Roman</li>
             <li>Tomo Nakayama</li>
-            <li>Laura Gibson</li>
             <li>Symphony Tacoma</li>
             <li>Auburn Symphony Orchestra</li>
             <li>Seattle Chamber Orchestra</li>
+            <li>Seattle Modern Chamber Orchestra</li>
             <li>Passenger String Quartet</li>
             <li>Seattle Music Inc.</li>
             <li>Jeremy Enigk (of Sunny Day Real Estate)</li>
+            <li>Trans Siberian Orchestra</li>
+            <li>Scrape</li>
+            <li>NOCCO (North Corner Chamber Orchestra)</li>
             <li>Amanda Palmer</li>
             <li>Mirah</li>
             <li>Pickwick</li>
             <li>Ahamefule Oluo</li>
+            <li>Laura Gibson</li>
             <li>Paul Kikuchi</li>
             <li>Erik Blood</li>
             <li>Phil Ek</li>
@@ -64,9 +68,6 @@ class AboutDetails extends React.Component {
             <li>Martin Feveyear </li>
             <li>Christopher Colbert</li>
             <li>Game of Thrones</li>
-            <li>Trans Siberian Orchestra</li>
-            <li>Scrape</li>
-            <li>NOCCO (North Corner Chamber Orchestra)</li>
           </ul>
           <h2 name='services' id='services'>Hire Alina for:</h2>
           <ul>

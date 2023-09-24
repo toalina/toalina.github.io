@@ -16,64 +16,6 @@ class Home extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
-                {/*PSQ - Lincoln Barr*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>August 24 Thurs</h4>
-                    <p className='show-text-link'>
-                      Passenger String Quartet w/ Lincoln Barr 
-                      <br />
-                      Royal Room (Seattle, WA)
-                    </p>
-                  </div>
-                </div>
-                {/*Tomo Nakayama - The Thing*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>August 25 Friday</h4>
-                    <p className='show-text-link'>
-                      Tomo Nakayama - The Thing Festival
-                      <br />
-                      Port Townsend, WA
-                    </p>
-                  </div>
-                </div>
-                {/*Tomo Nakayama - Snohomish Block Party*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>August 26 Saturday</h4>
-                    <p className='show-text-link'>
-                      Tomo Nakayama - Snohomish Block Party
-                      <br />
-                      Snohomish, WA
-                    </p>
-                  </div>
-                </div>
-                {/*Tomo Nakayama - Clock-out Lounge*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>September 8 Friday</h4>
-                    <p className='show-text-link'>
-                      <a href='https://clockoutlounge.com/event-detail/13404068/clock-out-lounge-presents-tomo-nakayama-w-tito-ramsey-wall-drugs/' target='_blank' rel='noopener noreferrer'>
-                      Tomo Nakayama - Clock Out Lounge
-                      <br />
-                      Clock Out Lounge (Seattle, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
                 {/*Leanna Keith - Blood Sugar Rice*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
@@ -84,7 +26,7 @@ class Home extends React.Component {
                     <p className='show-text-link'>
                       Leanna Keith - Blood Sugar Rice
                       <br />
-                      Kerry Hall at Cornish (Seattle, WA)
+                      Chapel Performance Space (Seattle, WA)
                     </p>
                   </div>
                 </div>
@@ -100,6 +42,52 @@ class Home extends React.Component {
                       Sheridan Riley - Earshot Jazz Festival
                       <br />
                       Chapel Performance Space (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Auburn Symphony Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 15 Sunday @ 2:30PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.auburnsymphony.org/' target='_blank' rel='noopener noreferrer'>
+                      Auburn Symphony Orchestra
+                      <br />
+                      Auburn Performing Arts Center (Auburnm, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama - Rabbit Box*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 25 Wednesday</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Rabbit Box (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Matt Cameron / Wayne Horvitz*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 28 Saturday @ 7:30PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://theroyalroomseattle.com/event/matt-cameron-trio-wayne-horvitz-and-motel-7-featuring-matt-cameron/' target='_blank' rel='noopener noreferrer'>
+                      Matt Cameron Trio // Wayne Horvitz and Motel 7 Featuring Matt Cameron
+                      <br />
+                      Royal Room (Seattle, WA)
                       </a>
                     </p>
                   </div>
@@ -126,11 +114,13 @@ class Home extends React.Component {
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>November 4 Saturday</h4>
+                    <h4 className='show-text-date'>November 4 Saturday @ 8PM</h4>
                     <p className='show-text-link'>
-                      Paige Barnes - Night Music
+                      <a href='https://www.eventbrite.com/e/night-music-an-evening-of-music-and-movement-tickets-698161147787?aff=oddtdtcreator' target='_blank' rel='noopener noreferrer'>
+                      Paige Barnes - Night Music: An evening of music and movement
                       <br />
                       Chapel Performance Space (Seattle, WA)
+                      </a>
                     </p>
                   </div>
                 </div>

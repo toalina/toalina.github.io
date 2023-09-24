@@ -13,6 +13,64 @@ class PastShows extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
+                {/*Tomo Nakayama - Clock-out Lounge*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>September 8 Friday</h4>
+                    <p className='show-text-link'>
+                      <a href='https://clockoutlounge.com/event-detail/13404068/clock-out-lounge-presents-tomo-nakayama-w-tito-ramsey-wall-drugs/' target='_blank' rel='noopener noreferrer'>
+                      Tomo Nakayama - Clock Out Lounge
+                      <br />
+                      Clock Out Lounge (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama - Snohomish Block Party*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 26 Saturday</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama - Snohomish Block Party
+                      <br />
+                      Snohomish, WA
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama - The Thing*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 25 Friday</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama - The Thing Festival
+                      <br />
+                      Port Townsend, WA
+                    </p>
+                  </div>
+                </div>
+                {/*PSQ - Lincoln Barr*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>August 24 Thurs</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet w/ Lincoln Barr 
+                      <br />
+                      Royal Room (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*PSQ - Sonic Guild*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
