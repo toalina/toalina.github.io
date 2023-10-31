@@ -13,6 +13,97 @@ class PastShows extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
+
+                {/*Matt Cameron / Wayne Horvitz*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 28 Saturday @ 7:30PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://theroyalroomseattle.com/event/matt-cameron-trio-wayne-horvitz-and-motel-7-featuring-matt-cameron/' target='_blank' rel='noopener noreferrer'>
+                      Matt Cameron Trio // Wayne Horvitz and Motel 7 Featuring Matt Cameron
+                      <br />
+                      Royal Room (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*DOTA 2 Internationale*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 27 Friday @ 10AM</h4>
+                    <p className='show-text-link'>
+                      DOTA 2 - The International 2023
+                      <br />
+                      Climate Pledge Arena (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Nakayama - Rabbit Box*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 25 Wednesday</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Rabbit Box (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Auburn Symphony Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 15 Sunday @ 2:30PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.auburnsymphony.org/' target='_blank' rel='noopener noreferrer'>
+                      Auburn Symphony Orchestra
+                      <br />
+                      Auburn Performing Arts Center (Auburnm, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Sheridan Riley - Earshot Festival*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>October 12 Thursday @ 7PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.earshot.org/event/sheridan-riley/' target='_blank' rel='noopener noreferrer'>
+                      Sheridan Riley - Earshot Jazz Festival
+                      <br />
+                      Chapel Performance Space (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Leanna Keith - Blood Sugar Rice*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>September 29 Friday</h4>
+                    <p className='show-text-link'>
+                      Leanna Keith - Blood Sugar Rice
+                      <br />
+                      Chapel Performance Space (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
                 {/*Tomo Nakayama - Clock-out Lounge*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>

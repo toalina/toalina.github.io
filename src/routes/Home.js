@@ -16,96 +16,6 @@ class Home extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
-                {/*Leanna Keith - Blood Sugar Rice*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>September 29 Friday</h4>
-                    <p className='show-text-link'>
-                      Leanna Keith - Blood Sugar Rice
-                      <br />
-                      Chapel Performance Space (Seattle, WA)
-                    </p>
-                  </div>
-                </div>
-                {/*Sheridan Riley - Earshot Festival*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>October 12 Thursday @ 7PM</h4>
-                    <p className='show-text-link'>
-                      <a href='https://www.earshot.org/event/sheridan-riley/' target='_blank' rel='noopener noreferrer'>
-                      Sheridan Riley - Earshot Jazz Festival
-                      <br />
-                      Chapel Performance Space (Seattle, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                {/*Auburn Symphony Orchestra*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>October 15 Sunday @ 2:30PM</h4>
-                    <p className='show-text-link'>
-                      <a href='https://www.auburnsymphony.org/' target='_blank' rel='noopener noreferrer'>
-                      Auburn Symphony Orchestra
-                      <br />
-                      Auburn Performing Arts Center (Auburnm, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                {/*Tomo Nakayama - Rabbit Box*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>October 25 Wednesday</h4>
-                    <p className='show-text-link'>
-                      Tomo Nakayama
-                      <br />
-                      Rabbit Box (Seattle, WA)
-                    </p>
-                  </div>
-                </div>
-                {/*DOTA 2 Internationale*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>October 27 Friday @ 10AM</h4>
-                    <p className='show-text-link'>
-                      DOTA 2 - The International 2023
-                      <br />
-                      Climate Pledge Arena (Seattle, WA)
-                    </p>
-                  </div>
-                </div>
-                {/*Matt Cameron / Wayne Horvitz*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>October 28 Saturday @ 7:30PM</h4>
-                    <p className='show-text-link'>
-                      <a href='https://theroyalroomseattle.com/event/matt-cameron-trio-wayne-horvitz-and-motel-7-featuring-matt-cameron/' target='_blank' rel='noopener noreferrer'>
-                      Matt Cameron Trio // Wayne Horvitz and Motel 7 Featuring Matt Cameron
-                      <br />
-                      Royal Room (Seattle, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
                 {/*Johnaye Kendrick - Grounded*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
@@ -128,12 +38,156 @@ class Home extends React.Component {
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>November 4 Saturday @ 8PM</h4>
+                    <h4 className='show-text-date'>November 4 Saturday</h4>
                     <p className='show-text-link'>
                       <a href='https://www.eventbrite.com/e/night-music-an-evening-of-music-and-movement-tickets-698161147787?aff=oddtdtcreator' target='_blank' rel='noopener noreferrer'>
                       Paige Barnes - Night Music: An evening of music and movement
                       <br />
                       Chapel Performance Space (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                {/*PSQ James Bond Winery*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>November 26 Sun</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet - James Bond Tribute
+                      <br />
+                      TBD
+                    </p>
+                  </div>
+                </div>
+
+                {/*John Van Deusen*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 1 Friday</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.eventbrite.com/e/john-van-deusen-featuring-the-passenger-string-quartet-at-brodniak-hall-tickets-717233052367' target='_blank' rel='noopener noreferrer'>
+                      John Van Deusen featuring The Passenger String Quartet
+                      <br />
+                      Anacortes High School (Anacortes, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                {/*Nutcracker*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 2 Sat @ 2PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.emeraldballet.org/' target='_blank' rel='noopener noreferrer'>
+                      Emerald Ballet Theatre Orchestra / Emerald Ballet Theatre presents Nutcracker
+                      <br />
+                      Northshore Performing Arts Center (Bothell, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                {/*Nutcracker*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 3 Sun @ 2PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.emeraldballet.org/' target='_blank' rel='noopener noreferrer'>
+                      Emerald Ballet Theatre Orchestra / Emerald Ballet Theatre presents Nutcracker
+                      <br />
+                      Northshore Performing Arts Center (Bothell, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+
+                {/*Jesse Butterworth*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 9 Sat</h4>
+                    <p className='show-text-link'>
+                      Jesse Butterworth w/ Passenger String Quartet
+                      <br />
+                      TBD (Seattle, wA)
+                    </p>
+                  </div>
+                </div>
+              
+                <h3>2024</h3>
+
+                {/*Tomo Sou'wester*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>January 6 Sat</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      The Sou'wester Lodge (Seaview, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Tomo Rollerrink*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>January 27 Sat</h4>
+                    <p className='show-text-link'>
+                      Tomo Nakayama
+                      <br />
+                      Southgate Skate Rink
+                    </p>
+                  </div>
+                </div>
+                {/*Auburn Symphony Orchestra*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>January 28 Sun @ 2:30</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.auburnsymphony.org/202324-season/january' target='_blank' rel='noopener noreferrer'>
+                      Auburn Symphony Orchestra - Love and Legends
+                      <br />
+                      Auburn Performing Arts Center (Auburn, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                 {/*Auburn Symphony Orchestra*/}
+                 <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>February 16 Fri</h4>
+                    <p className='show-text-link'>
+                      <a href='hhttps://www.auburnsymphony.org/202324-season/chamberfeb' target='_blank' rel='noopener noreferrer'>
+                      Auburn Symphony Orchestra - BRAVO Series String Quartet
+                      <br />
+                      Postmark Center for the Arts (Auburn, WA)
                       </a>
                     </p>
                   </div>
