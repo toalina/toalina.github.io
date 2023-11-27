@@ -13,7 +13,52 @@ class PastShows extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
-
+                {/*PSQ James Bond Winery*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>November 26 Sun</h4>
+                    <p className='show-text-link'>
+                      Passenger String Quartet - James Bond Tribute
+                      <br />
+                      Story Cellars (Woodinville, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Paige Barnes*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>November 4 Saturday</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.eventbrite.com/e/night-music-an-evening-of-music-and-movement-tickets-698161147787?aff=oddtdtcreator' target='_blank' rel='noopener noreferrer'>
+                      Paige Barnes - Night Music: An evening of music and movement
+                      <br />
+                      Chapel Performance Space (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
+                {/*Johnaye Kendrick - Grounded*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>November 2 Thursday @ 7:30PM</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.earshot.org/event/johnaye-kendrick-grounded/' target='_blank' rel='noopener noreferrer'>
+                      Johnaye Kendrick - Grounded - Earshot Jazz Festival
+                      <br />
+                      Raisbeck Auditorium (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
                 {/*Matt Cameron / Wayne Horvitz*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>

@@ -16,54 +16,7 @@ class Home extends React.Component {
             <div className='shows-list-container'>
               <div className='shows-list'>
                 <h3>2023</h3>
-                {/*Johnaye Kendrick - Grounded*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>November 2 Thursday @ 7:30PM</h4>
-                    <p className='show-text-link'>
-                      <a href='https://www.earshot.org/event/johnaye-kendrick-grounded/' target='_blank' rel='noopener noreferrer'>
-                      Johnaye Kendrick - Grounded - Earshot Jazz Festival
-                      <br />
-                      Raisbeck Auditorium (Seattle, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
-                {/*Paige Barnes*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>November 4 Saturday</h4>
-                    <p className='show-text-link'>
-                      <a href='https://www.eventbrite.com/e/night-music-an-evening-of-music-and-movement-tickets-698161147787?aff=oddtdtcreator' target='_blank' rel='noopener noreferrer'>
-                      Paige Barnes - Night Music: An evening of music and movement
-                      <br />
-                      Chapel Performance Space (Seattle, WA)
-                      </a>
-                    </p>
-                  </div>
-                </div>
-
-                {/*PSQ James Bond Winery*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>November 26 Sun</h4>
-                    <p className='show-text-link'>
-                      Passenger String Quartet - James Bond Tribute
-                      <br />
-                      TBD
-                    </p>
-                  </div>
-                </div>
-
+                
                 {/*John Van Deusen*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
@@ -114,18 +67,17 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
-
-                {/*Jesse Butterworth*/}
+                {/*LWSO Holiday Concert*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
                     <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
                   </div>
                   <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>December 9 Sat</h4>
+                    <h4 className='show-text-date'>December 16 Sat @ 3PM</h4>
                     <p className='show-text-link'>
-                      Jesse Butterworth w/ Passenger String Quartet
+                      Lake Washington Symphony Orchestra - Holiday Concert
                       <br />
-                      TBD (Seattle, wA)
+                      Bastyr Chapel (Kenmore, WA)
                     </p>
                   </div>
                 </div>
