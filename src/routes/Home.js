@@ -81,6 +81,48 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
+                {/*Elf in Concert*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 29 Fri @ 7PM</h4>
+                    <p className='show-text-link'>
+                      Elf in Concert
+                      <br />
+                      McCaw Hall (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*Elf in Concert*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 30 Sat @ 2PM</h4>
+                    <p className='show-text-link'>
+                      Elf in Concert
+                      <br />
+                      McCaw Hall (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
+                {/*PSS NYE Four Seasons*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>December 31 Sun @ 6PM - Midnight</h4>
+                    <p className='show-text-link'>
+                      New Years Eve Bash at Goldfinch Tavern (Four Seasons Hotel Seattle)
+                      <br />
+                      Four Seasons Hotel (Seattle, WA)
+                    </p>
+                  </div>
+                </div>
               
                 <h3>2024</h3>
 
@@ -98,20 +140,7 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
-                {/*Tomo Rollerrink*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>January 27 Sat</h4>
-                    <p className='show-text-link'>
-                      Tomo Nakayama
-                      <br />
-                      Southgate Skate Rink
-                    </p>
-                  </div>
-                </div>
+                
                 {/*Auburn Symphony Orchestra*/}
                 <div className='show-container'>
                   <div className='show-icon-wrapper'>
