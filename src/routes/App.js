@@ -64,7 +64,7 @@ const App = () => (
         <li><a href='https://github.com/toalina' target='_blank' rel='noopener noreferrer'><i className='fab fa-github fa-2x' /></a></li>
       </ul>
       <div className='footer-copyright'>
-        <p>&#169; Copyright 2023. All Rights Reserved.
+        <p>&#169; Copyright 2024. All Rights Reserved.
         <br />
         Site designed and built from scratch by <Link to='/tech' className='link'>Alina</Link>.</p>
       </div>
