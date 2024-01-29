@@ -46,21 +46,6 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
-                {/*SMCO*/}
-                <div className='show-container'>
-                  <div className='show-icon-wrapper'>
-                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
-                  </div>
-                  <div className='show-text-wrapper'>
-                    <h4 className='show-text-date'>February 10 Sat @ 2:30PM</h4>
-                    <p className='show-text-link'>
-                      Seattle Metropolitan Chamber Orchestra
-                      <br />
-                      Century Ballroom (Seattle, WA)
-                    </p>
-                  </div>
-                </div>
-                
                  {/*Auburn Symphony Orchestra*/}
                  <div className='show-container'>
                   <div className='show-icon-wrapper'>
