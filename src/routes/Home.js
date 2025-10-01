@@ -126,6 +126,22 @@ class Home extends React.Component {
                     </p>
                   </div>
                 </div>
+                {/*Elf!*/}
+                <div className='show-container'>
+                  <div className='show-icon-wrapper'>
+                    <img src='assets/violin.svg' alt='Violin Icon made by freepik.com from www.flaticon.com' className='icon-violin' />
+                  </div>
+                  <div className='show-text-wrapper'>
+                    <h4 className='show-text-date'>November 28 to December 28</h4>
+                    <p className='show-text-link'>
+                      <a href='https://www.5thavenue.org/shows/2025-26/elf-the-musical/' target='_blank' rel='noopener noreferrer'>
+                      Elf - The Musical
+                      <br />
+                      The Fifth Avenue Theatre (Seattle, WA)
+                      </a>
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
             <Link to='/past' className='link'>See Past Shows</Link>
